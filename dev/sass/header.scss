@@ -1,0 +1,17 @@
+header {
+  .container {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    margin: 0 auto;
+    .nav {
+      display: flex;
+      justify-content: center;
+      .nav-item {
+        margin-right: 15px;
+        .nav-link {
+          padding: 20px 50px;
+        }
+      }
+    }
+  }
+}
