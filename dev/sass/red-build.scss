@@ -63,41 +63,21 @@ section {
       &:hover {
         fill-opacity: 0.5;
         stroke-opacity: 0.4;
-        &.floor-1,
-        &.floor-7,
-        &.floor-11,
-        &.floor-26 {
-          fill: #ff0505;
-          stroke: #ff0505;
-        }
-        &.floor-2,
-        &.floor-3,
-        &.floor-4,
-        &.floor-5,
-        &.floor-8,
-        &.floor-9,
-        &.floor-10,
-        &.floor-13,
-        &.floor-14,
-        &.floor-15,
-        &.floor-16,
-        &.floor-18,
-        &.floor-19,
-        &.floor-20,
-        &.floor-21,
-        &.floor-22,
-        &.floor-23,
-        &.floor-24,
-        &.floor-25 {
+        &.floor {
           fill: #28ff05;
           stroke: #28ff05;
-        }
-        &.floor-6,
-        &.floor-12,
-        &.floor-17,
-        &.floor-21 {
-          fill: #ebff00;
-          stroke: #ebff00;
+          &.sold {
+            fill: #ff0505;
+            stroke: #ff0505;
+          }
+          &.booking {
+            fill: #ebff00;
+            stroke: #ebff00;
+          }
+          &.action {
+            fill: #0500ff;
+            stroke: #0500ff;
+          }
         }
       }
     }

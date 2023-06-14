@@ -43,9 +43,58 @@ buildLink.forEach((link) => {
   link.addEventListener("click", function (event) {
     if (link.classList.contains("sold")) {
       event.preventDefault();
-      alert("Дом продано");
+      alert("Будинок продано");
     } else {
       null;
     }
+  });
+});
+
+const floorItems = document.querySelectorAll(".floor");
+const floorValue = document.querySelector("#floor-value");
+const flatsAllValue = document.querySelector("#all-value");
+const flatsFreeValue = document.querySelector("#free-value");
+const flatsBookingValue = document.querySelector("#booking-value");
+const flatsActionValue = document.querySelector("#action-value");
+const flatsSoldValue = document.querySelector("#sold-value");
+const redBuildDescriptions = document.querySelector(
+  ".red-building-info-box__descriptions"
+);
+
+floorItems.forEach((items) => {
+  items.addEventListener("mouseover", function () {
+    const dataFloarNumber = items.getAttribute("data-floor-number");
+    const dataFlatsAllNumber = items.getAttribute("data-flats-all-number");
+    const dataFlatsFreeValue = items.getAttribute("data-flats-free-number");
+    const dataFlatsBookingValue = items.getAttribute(
+      "data-flats-booking-number"
+    );
+    const dataFlatsActioningValue = items.getAttribute(
+      "data-flats-action-number"
+    );
+    const dataFlatsSoldValue = items.getAttribute("data-flats-sold-number");
+    const dataFlatsDescriptions = items.getAttribute("data-flats-descriptions");
+
+    setTimeout(function () {
+      floorValue.innerHTML = dataFloarNumber;
+      flatsAllValue.innerHTML = dataFlatsAllNumber;
+      flatsFreeValue.innerHTML = dataFlatsFreeValue;
+      flatsBookingValue.innerHTML = dataFlatsBookingValue;
+      flatsActionValue.innerHTML = dataFlatsActioningValue;
+      flatsSoldValue.innerHTML = dataFlatsSoldValue;
+      redBuildDescriptions.innerHTML = dataFlatsDescriptions;
+    }, 100);
+  });
+
+  items.addEventListener("mouseout", function () {
+    setTimeout(function () {
+      floorValue.innerHTML = "_";
+      flatsAllValue.innerHTML = "_";
+      flatsFreeValue.innerHTML = "_";
+      flatsBookingValue.innerHTML = "_";
+      flatsActionValue.innerHTML = "_";
+      flatsSoldValue.innerHTML = "_";
+      redBuildDescriptions.innerHTML = "Random text";
+    }, 100);
   });
 });
