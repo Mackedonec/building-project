@@ -1,4 +1,5 @@
 section {
+  font-family: "Roboto";
   &.building {
     max-width: 100%;
     display: flex;
@@ -16,27 +17,30 @@ section {
       margin: 50px;
       &__title {
         text-align: center;
-        font-size: 30px;
         font-weight: 100;
       }
       &__number,
       &__stages,
       &__flat,
-      &__flat-sales {
-        padding: 12px 0 12px 12px;
-        font-size: 18px;
-        font-weight: 300;
-        span {
-          color: #fca503;
-          margin-left: 15px;
-        }
+      &__flat-sales,
+      &__descriptions {
+        padding: 12px;
       }
 
       &__descriptions {
-        padding: 12px;
         font-size: 14px;
         text-align: justify;
         min-height: 250px;
+      }
+      h5 {
+        border-radius: 10px;
+        font-weight: 300;
+      }
+      span {
+        font-size: 18px;
+        color: #fca503;
+        margin-left: 15px;
+        font-weight: 700;
       }
     }
     svg {
@@ -86,4 +90,40 @@ section {
       }
     }
   }
+}
+
+h1,
+.h1 {
+  font-size: 30px;
+  font-family: "Roboto";
+}
+
+h2,
+.h2 {
+  font-size: 24px;
+  font-family: "Roboto";
+}
+
+h3,
+.h3 {
+  font-size: 22px;
+  font-family: "Roboto";
+}
+
+h4,
+.h4 {
+  font-size: 20px;
+  font-family: "Roboto";
+}
+
+h5,
+.h5 {
+  font-size: 18px;
+  font-family: "Roboto";
+}
+
+h6,
+.h6 {
+  font-size: 16px;
+  font-family: "Roboto";
 }
