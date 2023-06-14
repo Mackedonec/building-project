@@ -58,7 +58,7 @@ const flatsBookingValue = document.querySelector("#booking-value");
 const flatsActionValue = document.querySelector("#action-value");
 const flatsSoldValue = document.querySelector("#sold-value");
 const redBuildDescriptions = document.querySelector(
-  ".red-building-info-box__descriptions"
+  ".one-building-info-box__descriptions"
 );
 
 floorItems.forEach((items) => {
