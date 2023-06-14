@@ -34,3 +34,18 @@ buildItems.forEach((items) => {
     }, 300);
   });
 });
+
+const buildLink = document.querySelectorAll(".building-link");
+
+buildLink.forEach((link) => {
+  console.log(link);
+
+  link.addEventListener("click", function (event) {
+    if (link.classList.contains("sold")) {
+      event.preventDefault();
+      alert("Дом продано");
+    } else {
+      null;
+    }
+  });
+});

@@ -4,9 +4,7 @@ section {
     @extend .building;
   }
   .building-info {
-    width: 100%;
-    max-width: 1280px;
-    margin: 0 30px;
+    @extend .building-info;
   }
 
   .red-building-info-box {
@@ -48,6 +46,59 @@ section {
         margin-left: 15px;
         padding-right: 15px;
         font-weight: 700;
+      }
+    }
+  }
+  svg {
+    margin: -200px 0;
+    max-width: 100%;
+    .floor {
+      fill: #c47caf;
+      stroke: #000000;
+      cursor: pointer;
+      fill-opacity: 0.5;
+      stroke-opacity: 0.2;
+      stroke-width: 5px;
+      transition: 0.3s;
+      &:hover {
+        fill-opacity: 0.5;
+        stroke-opacity: 0.4;
+        &.floor-1,
+        &.floor-7,
+        &.floor-11,
+        &.floor-26 {
+          fill: #ff0505;
+          stroke: #ff0505;
+        }
+        &.floor-2,
+        &.floor-3,
+        &.floor-4,
+        &.floor-5,
+        &.floor-8,
+        &.floor-9,
+        &.floor-10,
+        &.floor-13,
+        &.floor-14,
+        &.floor-15,
+        &.floor-16,
+        &.floor-18,
+        &.floor-19,
+        &.floor-20,
+        &.floor-21,
+        &.floor-22,
+        &.floor-23,
+        &.floor-24,
+        &.floor-25 {
+          fill: #28ff05;
+          stroke: #28ff05;
+        }
+        &.floor-6,
+        &.floor-12,
+        &.floor-17,
+        &.floor-21 {
+          fill: #ebff00;
+          stroke: #ebff00;
+        }
       }
     }
   }
