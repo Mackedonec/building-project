@@ -1,39 +1,46 @@
 section {
   &.building {
-    background: #3d3d3d;
-    background: linear-gradient(
-      90deg,
-      #3d3d3db1 0%,
-      #000000d8 49%,
-      #3a393bbb 100%
-    );
+    max-width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
     min-height: calc(100vh - 240px);
-    .table {
-      padding: 50px 15px 0;
-      max-width: 500px;
+    .building-info {
+      margin: 20px 50px;
+    }
+
+    .building-info-box {
+      border-radius: 30px;
+      padding: 15px;
+      max-width: 350px;
       margin: 50px;
-      thead {
-        tr {
-          th {
-            padding-top: 25px;
-            padding-bottom: 25px;
-          }
+      &__title {
+        text-align: center;
+        font-size: 30px;
+        font-weight: 100;
+      }
+      &__number,
+      &__stages,
+      &__flat,
+      &__flat-sales {
+        padding: 12px 0 12px 12px;
+        font-size: 18px;
+        font-weight: 300;
+        span {
+          color: #fca503;
+          margin-left: 15px;
         }
       }
-      tbody {
-        tr {
-          td {
-            padding-top: 60px;
-            padding-bottom: 60px;
-          }
-        }
+
+      &__descriptions {
+        padding: 12px;
+        font-size: 14px;
+        text-align: justify;
+        min-height: 250px;
       }
     }
     svg {
-      margin: 5px 0;
+      max-width: 100%;
       .build {
         fill: #c47caf;
         stroke: #000000;
@@ -45,24 +52,37 @@ section {
         &:hover {
           fill-opacity: 0.5;
           stroke-opacity: 0.4;
+          &.build-1 {
+            fill: #db05fe;
+            stroke: #db05fe;
+          }
 
-          &#build-1 {
+          &.build-2 {
             fill: #ff0505;
             stroke: #ff0505;
           }
-          &#build-2 {
+          &.build-3 {
             fill: #28ff05;
             stroke: #28ff05;
           }
-          &#build-3 {
+          &.build-4 {
             fill: #0500ff;
             stroke: #0500ff;
           }
-          &#build-4 {
+          &.build-5 {
             fill: #ebff00;
             stroke: #ebff00;
           }
         }
+      }
+    }
+  }
+}
+.building-link {
+  &.sold {
+    &:hover {
+      path {
+        cursor: not-allowed;
       }
     }
   }
