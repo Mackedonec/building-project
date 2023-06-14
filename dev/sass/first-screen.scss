@@ -1,38 +1,41 @@
 section {
   font-family: "Roboto";
   &.building {
-    max-width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
+    text-align: center;
     min-height: calc(100vh - 240px);
+
     .building-info {
-      margin: 20px 50px;
+      width: 100%;
+      max-width: 1280px;
+      margin: 0 30px;
     }
 
     .building-info-box {
+      width: 100%;
       border-radius: 30px;
       padding: 15px;
       max-width: 350px;
-      margin: 50px;
+      margin: 20px 50px;
       &__title {
         text-align: center;
         font-weight: 100;
       }
-      &__number,
-      &__stages,
-      &__flat,
-      &__flat-sales,
-      &__descriptions {
+      &__item {
         padding: 12px;
       }
 
       &__descriptions {
+        padding: 12px;
         font-size: 14px;
         text-align: justify;
         min-height: 250px;
       }
-      h5 {
+      h5,
+      p {
+        text-align: left;
         border-radius: 10px;
         font-weight: 300;
       }
@@ -44,6 +47,7 @@ section {
       }
     }
     svg {
+      margin: -200px 0;
       max-width: 100%;
       .build {
         fill: #c47caf;
@@ -57,8 +61,10 @@ section {
           fill-opacity: 0.5;
           stroke-opacity: 0.4;
           &.build-1 {
-            fill: #db05fe;
-            stroke: #db05fe;
+            fill-opacity: 0.8;
+            stroke-opacity: 0.8;
+            fill: #080808;
+            stroke: #080808;
           }
 
           &.build-2 {
