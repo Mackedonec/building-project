@@ -81,12 +81,12 @@ section {
     height: 100%;
     max-width: 100%;
     .floor {
-      fill: #c47caf;
+      fill: #53515148;
       stroke: #000000;
       cursor: pointer;
       fill-opacity: 0.5;
-      stroke-opacity: 0.2;
-      stroke-width: 5px;
+      stroke-opacity: 0.15;
+      stroke-width: 1px;
       transition: 0.3s;
       &:hover {
         fill-opacity: 0.5;
