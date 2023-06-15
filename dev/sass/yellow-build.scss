@@ -2,5 +2,8 @@ section {
   font-family: "Roboto";
   &.yellow-building {
     @extend .red-building;
+    .building-info {
+      max-width: 554px;
+    }
   }
 }
