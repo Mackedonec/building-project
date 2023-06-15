@@ -110,4 +110,13 @@ section {
       }
     }
   }
+  .floor-link {
+    &.sold {
+      &:hover {
+        path {
+          cursor: not-allowed;
+        }
+      }
+    }
+  }
 }

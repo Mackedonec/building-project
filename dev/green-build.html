@@ -1,0 +1,36 @@
+@@include('templates/head.html')
+@@include('templates/header.html')
+<main class="red-build">
+  <section class="green-building outset-dark">
+
+
+    <div class="building-info inset-dark">
+      <img src="assets/img/green-build.png" alt="">
+
+
+    </div>
+    <div class="one-building-info-box outset-gray">
+      <h2>Загальна інформація</h2>
+      <h5>Будинок<span> 2 </span></h5>
+      <div class="flats-info-box">
+        <h3 class="flats-info-box__item inset-gray">Інформація про <span id="floor-value"> _ </span> поверх:</h3>
+        <p class="flats-info-box__item inset-gray">Всього квартир <span id="all-value">_</span>
+        </p>
+        <p class="flats-info-box__item free inset-gray">Вільних <span id="free-value">_</span>
+        </p>
+        <p class="flats-info-box__item booking inset-gray">Заброньованих <span id="booking-value">_</span>
+        </p>
+        <p class="flats-info-box__item action inset-gray">Акційних <span id="action-value">_</span>
+        </p>
+        <p class="flats-info-box__item sold inset-gray">Проданих <span id="sold-value">_</span>
+        </p>
+
+      </div>
+      <p class="one-building-info-box__descriptions inset-gray">
+        Random text
+      </p>
+    </div>
+  </section>
+
+</main>
+@@include('templates/footer.html')

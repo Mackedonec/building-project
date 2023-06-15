@@ -1,0 +1,40 @@
+section {
+  font-family: "Roboto";
+  &.green-building {
+    @extend .red-building;
+  }
+
+  svg {
+    height: 100%;
+    max-width: 100%;
+    .floor {
+      fill: #53515148;
+      stroke: #000000;
+      cursor: pointer;
+      fill-opacity: 0.5;
+      stroke-opacity: 0.15;
+      stroke-width: 1px;
+      transition: 0.3s;
+      &:hover {
+        fill-opacity: 0.5;
+        stroke-opacity: 0.4;
+        &.floor {
+          fill: #28ff05;
+          stroke: #28ff05;
+          &.sold {
+            fill: #ff0505;
+            stroke: #ff0505;
+          }
+          &.booking {
+            fill: #ebff00;
+            stroke: #ebff00;
+          }
+          &.action {
+            fill: #0500ff;
+            stroke: #0500ff;
+          }
+        }
+      }
+    }
+  }
+}
