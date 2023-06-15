@@ -9,8 +9,10 @@ section {
   }
   .building-info {
     width: 100%;
-    max-width: 800px;
-    margin: 0 30px;
+    max-width: 455px;
+    margin: 5px 30px;
+    padding: 15px;
+    border-radius: 30px;
   }
 
   .one-building-info-box {
@@ -34,6 +36,26 @@ section {
     .flats-info-box {
       &__item {
         padding: 12px;
+        &.free {
+          span {
+            color: #05b548;
+          }
+        }
+        &.booking {
+          span {
+            color: #ebff00;
+          }
+        }
+        &.action {
+          span {
+            color: #0500ff;
+          }
+        }
+        &.sold {
+          span {
+            color: #ff0505;
+          }
+        }
       }
       h3 {
         border-radius: 10px;
@@ -47,7 +69,7 @@ section {
         font-weight: 300;
       }
       span {
-        font-size: 18px;
+        font-size: 20px;
         color: #fca503;
         margin-left: 15px;
         padding-right: 15px;
@@ -56,7 +78,7 @@ section {
     }
   }
   svg {
-    padding-right: 300px;
+    height: 100%;
     max-width: 100%;
     .floor {
       fill: #c47caf;
