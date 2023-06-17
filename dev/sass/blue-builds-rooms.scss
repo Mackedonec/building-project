@@ -1,0 +1,93 @@
+.rooms-info {
+  .tab {
+    min-height: calc(100vh - 240px);
+    .tab-list {
+      margin: 0 20px 30px;
+      li {
+        a {
+          font-size: 15px;
+          padding: 10px 15px;
+          color: #ffffff;
+          box-shadow: 3px 3px 7px #000000, -3px -3px 7px #000000;
+          &.current {
+            box-shadow: 3px 3px 7px #000000, -3px -3px 7px #000000;
+            color: #f30808;
+          }
+          &:hover {
+            box-shadow: 3px 3px 7px #2f2f2f, -3px -3px 7px #2f2f2f;
+          }
+        }
+      }
+    }
+    .tab-content {
+      margin: 10px 30px;
+      box-shadow: 3px 3px 7px #000000, -3px -3px 7px #000000;
+      &--list {
+        min-height: 100%;
+        text-align: center;
+      }
+    }
+  }
+}
+svg {
+  .flat-path {
+    fill: transparent;
+    stroke: transparent;
+    cursor: pointer;
+    &:hover {
+      fill: #22fd004f;
+      stroke: #555654;
+      stroke-width: 3px;
+    }
+  }
+  .flat {
+    .bg-status {
+      fill: #61fd01;
+    }
+    .bg-status-2 {
+      fill: #adf77f;
+    }
+
+    &.action {
+      .bg-status {
+        fill: #001eff;
+      }
+      .bg-status-2 {
+        fill: #82a5f6;
+      }
+      .flat-path {
+        &:hover {
+          fill: #0400ff50;
+        }
+      }
+    }
+
+    &.sold {
+      .bg-status {
+        fill: #ff0505;
+      }
+      .bg-status-2 {
+        fill: #fb7d7d;
+      }
+      .flat-path {
+        &:hover {
+          fill: #ff05054b;
+        }
+      }
+    }
+
+    &.booking {
+      .bg-status {
+        fill: #ebff00;
+      }
+      .bg-status-2 {
+        fill: #e9f474;
+      }
+      .flat-path {
+        &:hover {
+          fill: #eaff0067;
+        }
+      }
+    }
+  }
+}

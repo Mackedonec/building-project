@@ -7,7 +7,7 @@ const buildDescriptions = document.querySelector(
   ".building-info-box__descriptions"
 );
 
-buildItems.forEach((items) => {
+buildItems.forEach(function (items) {
   items.addEventListener("mouseover", function () {
     const dataBuildNumber = items.getAttribute("data-build-number");
     const dataStagesNumber = items.getAttribute("data-stages-number");
@@ -37,7 +37,7 @@ buildItems.forEach((items) => {
 
 const buildLink = document.querySelectorAll(".building-link");
 
-buildLink.forEach((link) => {
+buildLink.forEach(function (link) {
   console.log(link);
 
   link.addEventListener("click", function (event) {
@@ -61,7 +61,7 @@ const redBuildDescriptions = document.querySelector(
   ".one-building-info-box__descriptions"
 );
 
-floorItems.forEach((items) => {
+floorItems.forEach(function (items) {
   items.addEventListener("mouseover", function () {
     const dataFloarNumber = items.getAttribute("data-floor-number");
     const dataFlatsAllNumber = items.getAttribute("data-flats-all-number");
@@ -97,4 +97,18 @@ floorItems.forEach((items) => {
       redBuildDescriptions.innerHTML = "Random text";
     }, 100);
   });
+});
+
+const flats = document.querySelectorAll(".flat");
+
+flats.forEach((item) => {
+  if (item.classList.contains("booking")) {
+    item.querySelector(".status-text").innerHTML = "Бронь";
+  } else if (item.classList.contains("sold")) {
+    item.querySelector(".status-text").innerHTML = "Продано";
+  } else if (item.classList.contains("action")) {
+    item.querySelector(".status-text").innerHTML = "Акція";
+  } else {
+    item.querySelector(".status-text").innerHTML = "У продажу";
+  }
 });
