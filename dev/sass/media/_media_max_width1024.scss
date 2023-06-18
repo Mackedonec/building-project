@@ -1,4 +1,32 @@
 @media screen and (max-width: 1024px) {
+  section {
+    &.building {
+      .building-info-box {
+        max-width: 200px;
+
+        &__item {
+          padding: 6px;
+        }
+
+        &__descriptions {
+          padding: 6px;
+          font-size: 10px;
+          min-height: 150px;
+        }
+        h2 {
+          font-size: 16px;
+        }
+        h5,
+        p {
+          font-size: 12px;
+        }
+        span {
+          font-size: 18px;
+          color: #fca503;
+          margin-left: 15px;
+          font-weight: 700;
+        }
+      }
+    }
+  }
 }
-
-

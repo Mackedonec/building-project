@@ -1,28 +1,58 @@
 .rooms-info {
+  h2 {
+    border-radius: 30px;
+    color: #ffffff;
+    text-align: center;
+    padding: 10px;
+    margin: 0 50px;
+  }
   .tab {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    justify-content: flex-start;
     min-height: calc(100vh - 240px);
     .tab-list {
-      margin: 0 20px 30px;
+      border-radius: 30px;
+      padding: 20px 30px;
+      margin: 30px auto;
+      transition: 0.3s;
       li {
+        margin: 0 auto;
+        padding: 5px;
         a {
+          transition: 0.3s;
           font-size: 15px;
-          padding: 10px 15px;
+          padding: 10px;
           color: #ffffff;
-          box-shadow: 3px 3px 7px #000000, -3px -3px 7px #000000;
+          box-shadow: 3px 3px 7px #202020, -3px -3px 7px #161616;
           &.current {
-            box-shadow: 3px 3px 7px #000000, -3px -3px 7px #000000;
-            color: #f30808;
+            box-shadow: 3px 3px 7px #565555, -3px -3px 7px #191919;
+            color: transparent;
+            text-shadow: 1px 1px white;
+            &:hover {
+              transition: 0.3s;
+              box-shadow: 3px 3px 7px #565656, -3px -3px 7px #191919;
+            }
           }
           &:hover {
+            transition: 0.3s;
             box-shadow: 3px 3px 7px #2f2f2f, -3px -3px 7px #2f2f2f;
+          }
+          &:focus-visible {
+            outline: none;
           }
         }
       }
     }
     .tab-content {
-      margin: 10px 30px;
+      padding: 10px 20px;
+      border-radius: 30px;
+      margin: 10px auto;
       box-shadow: 3px 3px 7px #000000, -3px -3px 7px #000000;
-      &--list {
+      .tab-content--list {
+        padding: 0;
+        max-width: 100%;
         min-height: 100%;
         text-align: center;
       }
