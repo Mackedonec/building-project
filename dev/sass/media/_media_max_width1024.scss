@@ -1,6 +1,7 @@
 @media screen and (max-width: 1024px) {
   section {
     &.building {
+      justify-content: flex-start;
       .building-info-box {
         max-width: 200px;
 

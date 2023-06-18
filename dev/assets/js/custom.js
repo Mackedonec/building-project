@@ -1,3 +1,4 @@
+// builds info
 const buildItems = document.querySelectorAll(".build");
 const buildsValue = document.querySelector("#builds-value");
 const stagesValue = document.querySelector("#stages-value");
@@ -38,8 +39,6 @@ buildItems.forEach(function (items) {
 const buildLink = document.querySelectorAll(".building-link");
 
 buildLink.forEach(function (link) {
-  console.log(link);
-
   link.addEventListener("click", function (event) {
     if (link.classList.contains("sold")) {
       event.preventDefault();
@@ -50,6 +49,7 @@ buildLink.forEach(function (link) {
   });
 });
 
+// floor info
 const floorItems = document.querySelectorAll(".floor");
 const floorValue = document.querySelector("#floor-value");
 const flatsAllValue = document.querySelector("#all-value");
@@ -99,6 +99,7 @@ floorItems.forEach(function (items) {
   });
 });
 
+// room info
 const flats = document.querySelectorAll(".flat");
 
 flats.forEach((item) => {

@@ -1,6 +1,5 @@
 @media screen and (max-width: 575px) {
   section {
-    font-family: "Roboto";
     &.red-building {
       padding-top: 50px;
       align-items: flex-start;
@@ -9,7 +8,6 @@
       margin: 5px 15px;
       padding: 10px;
     }
-
     .one-building-info-box {
       text-align: center;
       width: 100%;
