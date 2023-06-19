@@ -114,6 +114,23 @@ flats.forEach((item) => {
   }
 });
 
+// Получаем текущий параметр "tab" из URL
+const urlParams = new URLSearchParams(window.location.search);
+const currentTab = urlParams.get("tab");
+
+// Если текущий параметр "tab" определен, присваиваем класс "current" соответствующей вкладке
+if (currentTab) {
+  const tabs = document
+    .getElementsByClassName("tab-list")[0]
+    .getElementsByTagName("a");
+  for (let i = 0; i < tabs.length; i++) {
+    const tabNumber = i + 1;
+    if (currentTab === tabNumber.toString()) {
+      tabs[i].classList.add("current");
+    }
+  }
+}
+
 const roomFullInfo = [
   {
     id: 1,
