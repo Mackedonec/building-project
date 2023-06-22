@@ -558,19 +558,8 @@ function installInfo() {
     }
   });
 
-  const flatInfoBox = document.querySelectorAll(".flat-path");
-  const flatNumbers = document.querySelector("#room-number");
-  const houseNumbers = document.querySelector("#house-number");
-
-  flatInfoBox.forEach((item) => {
-    item.addEventListener("click", function () {
-      const dataFlatNumbers = item.getAttribute("data-flat-number");
-      const dataHouseNumbers = item.getAttribute("data-house-number");
-      flatNumbers.innerHTML = dataFlatNumbers;
-      houseNumbers.innerHTML = dataHouseNumbers;
-    });
-  });
   const flatGroup = document.querySelectorAll(".flat");
+
   function deleteClassActiv() {
     flatGroup.forEach((activ) => {
       activ.classList.remove("activ");
