@@ -92,9 +92,6 @@ svg {
       stroke: #555654;
       stroke-width: 3px;
     }
-    &activ {
-      fill: #22fd00c6;
-    }
   }
   .flat {
     .bg-status {
@@ -146,8 +143,19 @@ svg {
       }
     }
     &.activ {
+      .bg-status {
+        fill: #5f5f5f;
+      }
+      .bg-status-2 {
+        fill: #5c5c5c;
+      }
       .flat-path {
-        fill: #22fd009e;
+        fill: #5f5f5f85;
+      }
+      .flat-path {
+        &:hover {
+          fill: #5f5f5f85;
+        }
       }
     }
   }
