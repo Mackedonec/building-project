@@ -105,6 +105,439 @@ function installBuild() {
     });
   });
 }
+const roomFullInfo = [
+  {
+    flatNumber: "1",
+    rooms: "2",
+    square: "35,6 м.кв.",
+    squareFull: "60,7 м.кв.",
+    price: "1000$",
+    priceTotal: "60700$",
+
+    description: [
+      {
+        text: "Двокімнатна квартира",
+      },
+      {
+        text: "Загальна площа - 60,7 м.кв.",
+      },
+      {
+        text: "Жила площа - 35,6 м.кв.",
+      },
+      {
+        text: "Ціна за 1 м.кв. - 1000$",
+      },
+    ],
+  },
+
+  {
+    flatNumber: "2",
+    rooms: "3",
+    square: "47,9 м.кв.",
+    squareFull: "82,3 м.кв.",
+    price: "1000$",
+    priceTotal: "82300$",
+
+    description: [
+      {
+        text: "Трикімнатна квартира",
+      },
+      {
+        text: "Загальна площа - 82,3 м.кв.",
+      },
+      {
+        text: "Жила площа - 47,9 м.кв.",
+      },
+      {
+        text: "Ціна за 1 м.кв. - 1000$",
+      },
+    ],
+  },
+
+  {
+    flatNumber: "3",
+    rooms: "2",
+    square: "35,6 м.кв.",
+    squareFull: "60,7 м.кв.",
+    price: "1000$",
+    priceTotal: "60700$",
+
+    description: [
+      {
+        text: "Двокімнатна квартира",
+      },
+      {
+        text: "Загальна площа - 60,7 м.кв.",
+      },
+      {
+        text: "Жила площа - 35,6 м.кв.",
+      },
+      {
+        text: "Ціна за 1 м.кв. - 1000$",
+      },
+    ],
+  },
+
+  {
+    flatNumber: "4",
+    rooms: "3",
+    square: "48,1 м.кв.",
+    squareFull: "82,0 м.кв.",
+    price: "1000$",
+    priceTotal: "82000$",
+
+    description: [
+      {
+        text: "Трикімнатна квартира",
+      },
+      {
+        text: "Загальна площа - 82,0 м.кв.",
+      },
+      {
+        text: "Жила площа - 48,1 м.кв.",
+      },
+      {
+        text: "Ціна за 1 м.кв. - 1000$",
+      },
+    ],
+  },
+
+  {
+    flatNumber: "5",
+    rooms: "3",
+    square: "48,1 м.кв.",
+    squareFull: "79,7 м.кв.",
+    price: "1000$",
+    priceTotal: "79700$",
+
+    description: [
+      {
+        text: "Трикімнатна квартира",
+      },
+      {
+        text: "Загальна площа - 79,7 м.кв.",
+      },
+      {
+        text: "Жила площа - 48,1 м.кв.",
+      },
+      {
+        text: "Ціна за 1 м.кв. - 1000$",
+      },
+    ],
+  },
+
+  {
+    flatNumber: "6",
+    rooms: "1",
+    square: "19,0 м.кв.",
+    squareFull: "39,2 м.кв.",
+    price: "1000$",
+    priceTotal: "39200$",
+
+    description: [
+      {
+        text: "Однокімнатна квартира",
+      },
+      {
+        text: "Загальна площа - 39,2 м.кв.",
+      },
+      {
+        text: "Жила площа - 19,0 м.кв.",
+      },
+      {
+        text: "Ціна за 1 м.кв. - 1000$",
+      },
+    ],
+  },
+
+  {
+    flatNumber: "7",
+    rooms: "1",
+    square: "21,9 м.кв.",
+    squareFull: "42,0 м.кв.",
+    price: "1000$",
+    priceTotal: "42000$",
+
+    description: [
+      {
+        text: "Однокімнатна квартира",
+      },
+      {
+        text: "Загальна площа - 42,0 м.кв.",
+      },
+      {
+        text: "Жила площа - 21,9 м.кв.",
+      },
+      {
+        text: "Ціна за 1 м.кв. - 1000$",
+      },
+    ],
+  },
+
+  {
+    flatNumber: "8",
+    rooms: "1",
+    square: "19,0 м.кв.",
+    squareFull: "39,2 м.кв.",
+    price: "1000$",
+    priceTotal: "39200$",
+
+    description: [
+      {
+        text: "Однокімнатна квартира",
+      },
+      {
+        text: "Загальна площа - 39,2 м.кв.",
+      },
+      {
+        text: "Жила площа - 19,0 м.кв.",
+      },
+      {
+        text: "Ціна за 1 м.кв. - 1000$",
+      },
+    ],
+  },
+
+  {
+    flatNumber: "9",
+    rooms: "3",
+    square: "47,9 м.кв.",
+    squareFull: "79,3 м.кв.",
+    price: "1000$",
+    priceTotal: "79700$",
+
+    description: [
+      {
+        text: "Трикімнатна квартира",
+      },
+      {
+        text: "Загальна площа - 79,3 м.кв.",
+      },
+      {
+        text: "Жила площа - 47,9 м.кв.",
+      },
+      {
+        text: "Ціна за 1 м.кв. - 1000$",
+      },
+    ],
+  },
+
+  {
+    flatNumber: "10",
+    rooms: "2",
+    square: "35,6 м.кв.",
+    squareFull: "60,7 м.кв.",
+    price: "1000$",
+    priceTotal: "60700$",
+
+    description: [
+      {
+        text: "Двокімнатна квартира",
+      },
+      {
+        text: "Загальна площа - 60,7 м.кв.",
+      },
+      {
+        text: "Жила площа - 35,6 м.кв.",
+      },
+      {
+        text: "Ціна за 1 м.кв. - 1000$",
+      },
+    ],
+  },
+
+  {
+    flatNumber: "11",
+    rooms: "3",
+    square: "47,9 м.кв.",
+    squareFull: "82,3 м.кв.",
+    price: "1000$",
+    priceTotal: "82300$",
+
+    description: [
+      {
+        text: "Трикімнатна квартира",
+      },
+      {
+        text: "Загальна площа - 82,3 м.кв.",
+      },
+      {
+        text: "Жила площа - 47,9 м.кв.",
+      },
+      {
+        text: "Ціна за 1 м.кв. - 1000$",
+      },
+    ],
+  },
+
+  {
+    flatNumber: "12",
+    rooms: "2",
+    square: "35,6 м.кв.",
+    squareFull: "60,7 м.кв.",
+    price: "1000$",
+    priceTotal: "60700$",
+
+    description: [
+      {
+        text: "Двокімнатна квартира",
+      },
+      {
+        text: "Загальна площа - 60,7 м.кв.",
+      },
+      {
+        text: "Жила площа - 35,6 м.кв.",
+      },
+      {
+        text: "Ціна за 1 м.кв. - 1000$",
+      },
+    ],
+  },
+
+  {
+    flatNumber: "13",
+    rooms: "3",
+    square: "48,1 м.кв.",
+    squareFull: "82,0 м.кв.",
+    price: "1000$",
+    priceTotal: "82000$",
+
+    description: [
+      {
+        text: "Трикімнатна квартира",
+      },
+      {
+        text: "Загальна площа - 82,0 м.кв.",
+      },
+      {
+        text: "Жила площа - 48,1 м.кв.",
+      },
+      {
+        text: "Ціна за 1 м.кв. - 1000$",
+      },
+    ],
+  },
+
+  {
+    flatNumber: "14",
+    rooms: "3",
+    square: "48,1 м.кв.",
+    squareFull: "79,7 м.кв.",
+    price: "1000$",
+    priceTotal: "79700$",
+
+    description: [
+      {
+        text: "Трикімнатна квартира",
+      },
+      {
+        text: "Загальна площа - 79,7 м.кв.",
+      },
+      {
+        text: "Жила площа - 48,1 м.кв.",
+      },
+      {
+        text: "Ціна за 1 м.кв. - 1000$",
+      },
+    ],
+  },
+
+  {
+    flatNumber: "15",
+    rooms: "1",
+    square: "19,0 м.кв.",
+    squareFull: "39,2 м.кв.",
+    price: "1000$",
+    priceTotal: "39200$",
+
+    description: [
+      {
+        text: "Однокімнатна квартира",
+      },
+      {
+        text: "Загальна площа - 39,2 м.кв.",
+      },
+      {
+        text: "Жила площа - 19,0 м.кв.",
+      },
+      {
+        text: "Ціна за 1 м.кв. - 1000$",
+      },
+    ],
+  },
+
+  {
+    flatNumber: "16",
+    rooms: "1",
+    square: "21,9 м.кв.",
+    squareFull: "42,0 м.кв.",
+    price: "1000$",
+    priceTotal: "42000$",
+
+    description: [
+      {
+        text: "Однокімнатна квартира",
+      },
+      {
+        text: "Загальна площа - 42,0 м.кв.",
+      },
+      {
+        text: "Жила площа - 21,9 м.кв.",
+      },
+      {
+        text: "Ціна за 1 м.кв. - 1000$",
+      },
+    ],
+  },
+
+  {
+    flatNumber: "17",
+    rooms: "1",
+    square: "19,0 м.кв.",
+    squareFull: "39,2 м.кв.",
+    price: "1000$",
+    priceTotal: "39200$",
+
+    description: [
+      {
+        text: "Однокімнатна квартира",
+      },
+      {
+        text: "Загальна площа - 39,2 м.кв.",
+      },
+      {
+        text: "Жила площа - 19,0 м.кв.",
+      },
+      {
+        text: "Ціна за 1 м.кв. - 1000$",
+      },
+    ],
+  },
+
+  {
+    flatNumber: "18",
+    rooms: "3",
+    square: "47,9 м.кв.",
+    squareFull: "79,3 м.кв.",
+    price: "1000$",
+    priceTotal: "79700$",
+
+    description: [
+      {
+        text: "Трикімнатна квартира",
+      },
+      {
+        text: "Загальна площа - 79,3 м.кв.",
+      },
+      {
+        text: "Жила площа - 47,9 м.кв.",
+      },
+      {
+        text: "Ціна за 1 м.кв. - 1000$",
+      },
+    ],
+  },
+];
 
 window.addEventListener("load", function name(params) {
   document.querySelector(".rooms-info") ? installInfo() : null;
@@ -136,442 +569,29 @@ function installInfo() {
       flatNumbers.innerHTML = dataFlatNumbers;
       houseNumbers.innerHTML = dataHouseNumbers;
     });
+  });
+  const flatGroup = document.querySelectorAll(".flat");
+  function deleteClassActiv() {
+    flatGroup.forEach((activ) => {
+      activ.classList.remove("activ");
+    });
+  }
 
-    const flatGroup = document.querySelectorAll(".flat");
-    function deleteClassActiv() {
-      flatGroup.forEach((activ) => {
-        activ.classList.remove("activ");
-      });
-    }
-    flatGroup.forEach((flat) => {
-      flat.addEventListener("click", function () {
-        deleteClassActiv();
-        flat.classList.add("activ");
-        let thisFlat = flat.getAttribute("id");
-        let flatNumber = roomFullInfo.find((obj) => obj.id === thisFlat);
-        console.table(flatNumber);
-      });
+  flatGroup.forEach((flat) => {
+    flat.addEventListener("click", function () {
+      deleteClassActiv();
+      flat.classList.add("activ");
+
+      let thisFlat = flat.getAttribute("data-rooms-number");
+
+      let flatNumber = roomFullInfo.filter(
+        (obj) => obj.flatNumber === thisFlat
+      );
+      console.table(flatNumber);
     });
   });
+  console.table(roomFullInfo);
 }
-
-const roomFullInfo = [
-  {
-    rooms: "2",
-    square: "35,6 м.кв.",
-    squareFull: "60,7 м.кв.",
-    price: "1000$",
-    priceTotal: "60700$",
-
-    description: [
-      {
-        text: "Двокімнатна квартира",
-      },
-      {
-        text: "Загальна площа - 60,7 м.кв.",
-      },
-      {
-        text: "Жила площа - 35,6 м.кв.",
-      },
-      {
-        text: "Ціна за 1 м.кв. - 1000$",
-      },
-    ],
-  },
-
-  {
-    rooms: "3",
-    square: "47,9 м.кв.",
-    squareFull: "82,3 м.кв.",
-    price: "1000$",
-    priceTotal: "82300$",
-
-    description: [
-      {
-        text: "Трикімнатна квартира",
-      },
-      {
-        text: "Загальна площа - 82,3 м.кв.",
-      },
-      {
-        text: "Жила площа - 47,9 м.кв.",
-      },
-      {
-        text: "Ціна за 1 м.кв. - 1000$",
-      },
-    ],
-  },
-
-  {
-    rooms: "2",
-    square: "35,6 м.кв.",
-    squareFull: "60,7 м.кв.",
-    price: "1000$",
-    priceTotal: "60700$",
-
-    description: [
-      {
-        text: "Двокімнатна квартира",
-      },
-      {
-        text: "Загальна площа - 60,7 м.кв.",
-      },
-      {
-        text: "Жила площа - 35,6 м.кв.",
-      },
-      {
-        text: "Ціна за 1 м.кв. - 1000$",
-      },
-    ],
-  },
-
-  {
-    rooms: "3",
-    square: "48,1 м.кв.",
-    squareFull: "82,0 м.кв.",
-    price: "1000$",
-    priceTotal: "82000$",
-
-    description: [
-      {
-        text: "Трикімнатна квартира",
-      },
-      {
-        text: "Загальна площа - 82,0 м.кв.",
-      },
-      {
-        text: "Жила площа - 48,1 м.кв.",
-      },
-      {
-        text: "Ціна за 1 м.кв. - 1000$",
-      },
-    ],
-  },
-
-  {
-    rooms: "3",
-    square: "48,1 м.кв.",
-    squareFull: "79,7 м.кв.",
-    price: "1000$",
-    priceTotal: "79700$",
-
-    description: [
-      {
-        text: "Трикімнатна квартира",
-      },
-      {
-        text: "Загальна площа - 79,7 м.кв.",
-      },
-      {
-        text: "Жила площа - 48,1 м.кв.",
-      },
-      {
-        text: "Ціна за 1 м.кв. - 1000$",
-      },
-    ],
-  },
-
-  {
-    rooms: "1",
-    square: "19,0 м.кв.",
-    squareFull: "39,2 м.кв.",
-    price: "1000$",
-    priceTotal: "39200$",
-
-    description: [
-      {
-        text: "Однокімнатна квартира",
-      },
-      {
-        text: "Загальна площа - 39,2 м.кв.",
-      },
-      {
-        text: "Жила площа - 19,0 м.кв.",
-      },
-      {
-        text: "Ціна за 1 м.кв. - 1000$",
-      },
-    ],
-  },
-
-  {
-    rooms: "1",
-    square: "21,9 м.кв.",
-    squareFull: "42,0 м.кв.",
-    price: "1000$",
-    priceTotal: "42000$",
-
-    description: [
-      {
-        text: "Однокімнатна квартира",
-      },
-      {
-        text: "Загальна площа - 42,0 м.кв.",
-      },
-      {
-        text: "Жила площа - 21,9 м.кв.",
-      },
-      {
-        text: "Ціна за 1 м.кв. - 1000$",
-      },
-    ],
-  },
-
-  {
-    rooms: "1",
-    square: "19,0 м.кв.",
-    squareFull: "39,2 м.кв.",
-    price: "1000$",
-    priceTotal: "39200$",
-
-    description: [
-      {
-        text: "Однокімнатна квартира",
-      },
-      {
-        text: "Загальна площа - 39,2 м.кв.",
-      },
-      {
-        text: "Жила площа - 19,0 м.кв.",
-      },
-      {
-        text: "Ціна за 1 м.кв. - 1000$",
-      },
-    ],
-  },
-
-  {
-    rooms: "3",
-    square: "47,9 м.кв.",
-    squareFull: "79,3 м.кв.",
-    price: "1000$",
-    priceTotal: "79700$",
-
-    description: [
-      {
-        text: "Трикімнатна квартира",
-      },
-      {
-        text: "Загальна площа - 79,3 м.кв.",
-      },
-      {
-        text: "Жила площа - 47,9 м.кв.",
-      },
-      {
-        text: "Ціна за 1 м.кв. - 1000$",
-      },
-    ],
-  },
-
-  {
-    rooms: "2",
-    square: "35,6 м.кв.",
-    squareFull: "60,7 м.кв.",
-    price: "1000$",
-    priceTotal: "60700$",
-
-    description: [
-      {
-        text: "Двокімнатна квартира",
-      },
-      {
-        text: "Загальна площа - 60,7 м.кв.",
-      },
-      {
-        text: "Жила площа - 35,6 м.кв.",
-      },
-      {
-        text: "Ціна за 1 м.кв. - 1000$",
-      },
-    ],
-  },
-
-  {
-    rooms: "3",
-    square: "47,9 м.кв.",
-    squareFull: "82,3 м.кв.",
-    price: "1000$",
-    priceTotal: "82300$",
-
-    description: [
-      {
-        text: "Трикімнатна квартира",
-      },
-      {
-        text: "Загальна площа - 82,3 м.кв.",
-      },
-      {
-        text: "Жила площа - 47,9 м.кв.",
-      },
-      {
-        text: "Ціна за 1 м.кв. - 1000$",
-      },
-    ],
-  },
-
-  {
-    rooms: "2",
-    square: "35,6 м.кв.",
-    squareFull: "60,7 м.кв.",
-    price: "1000$",
-    priceTotal: "60700$",
-
-    description: [
-      {
-        text: "Двокімнатна квартира",
-      },
-      {
-        text: "Загальна площа - 60,7 м.кв.",
-      },
-      {
-        text: "Жила площа - 35,6 м.кв.",
-      },
-      {
-        text: "Ціна за 1 м.кв. - 1000$",
-      },
-    ],
-  },
-
-  {
-    rooms: "3",
-    square: "48,1 м.кв.",
-    squareFull: "82,0 м.кв.",
-    price: "1000$",
-    priceTotal: "82000$",
-
-    description: [
-      {
-        text: "Трикімнатна квартира",
-      },
-      {
-        text: "Загальна площа - 82,0 м.кв.",
-      },
-      {
-        text: "Жила площа - 48,1 м.кв.",
-      },
-      {
-        text: "Ціна за 1 м.кв. - 1000$",
-      },
-    ],
-  },
-
-  {
-    rooms: "3",
-    square: "48,1 м.кв.",
-    squareFull: "79,7 м.кв.",
-    price: "1000$",
-    priceTotal: "79700$",
-
-    description: [
-      {
-        text: "Трикімнатна квартира",
-      },
-      {
-        text: "Загальна площа - 79,7 м.кв.",
-      },
-      {
-        text: "Жила площа - 48,1 м.кв.",
-      },
-      {
-        text: "Ціна за 1 м.кв. - 1000$",
-      },
-    ],
-  },
-
-  {
-    rooms: "1",
-    square: "19,0 м.кв.",
-    squareFull: "39,2 м.кв.",
-    price: "1000$",
-    priceTotal: "39200$",
-
-    description: [
-      {
-        text: "Однокімнатна квартира",
-      },
-      {
-        text: "Загальна площа - 39,2 м.кв.",
-      },
-      {
-        text: "Жила площа - 19,0 м.кв.",
-      },
-      {
-        text: "Ціна за 1 м.кв. - 1000$",
-      },
-    ],
-  },
-
-  {
-    rooms: "1",
-    square: "21,9 м.кв.",
-    squareFull: "42,0 м.кв.",
-    price: "1000$",
-    priceTotal: "42000$",
-
-    description: [
-      {
-        text: "Однокімнатна квартира",
-      },
-      {
-        text: "Загальна площа - 42,0 м.кв.",
-      },
-      {
-        text: "Жила площа - 21,9 м.кв.",
-      },
-      {
-        text: "Ціна за 1 м.кв. - 1000$",
-      },
-    ],
-  },
-
-  {
-    rooms: "1",
-    square: "19,0 м.кв.",
-    squareFull: "39,2 м.кв.",
-    price: "1000$",
-    priceTotal: "39200$",
-
-    description: [
-      {
-        text: "Однокімнатна квартира",
-      },
-      {
-        text: "Загальна площа - 39,2 м.кв.",
-      },
-      {
-        text: "Жила площа - 19,0 м.кв.",
-      },
-      {
-        text: "Ціна за 1 м.кв. - 1000$",
-      },
-    ],
-  },
-
-  {
-    rooms: "3",
-    square: "47,9 м.кв.",
-    squareFull: "79,3 м.кв.",
-    price: "1000$",
-    priceTotal: "79700$",
-
-    description: [
-      {
-        text: "Трикімнатна квартира",
-      },
-      {
-        text: "Загальна площа - 79,3 м.кв.",
-      },
-      {
-        text: "Жила площа - 47,9 м.кв.",
-      },
-      {
-        text: "Ціна за 1 м.кв. - 1000$",
-      },
-    ],
-  },
-];
-console.table(roomFullInfo);
-
 // Получаем текущий параметр "tab" из URL
 const urlParams = new URLSearchParams(window.location.search);
 const currentTab = urlParams.get("tab");
