@@ -65,6 +65,9 @@
         display: flex;
         flex-wrap: wrap;
         justify-content: center;
+        #flat-info {
+          display: flex;
+        }
         .flat-info {
           border: 1px solid black;
           border-radius: 10px;
