@@ -130,10 +130,40 @@ if (currentTab) {
     }
   }
 }
+window.addEventListener("load", function name(params) {
+  document.querySelector(".rooms-info") ? installInfo() : null;
+});
+function installInfo() {
+  const flatInfoBox = document.querySelectorAll(".flat-path");
+  const flatNumbers = document.querySelector("#room-number");
+  const houseNumbers = document.querySelector("#house-number");
+
+  flatInfoBox.forEach((item) => {
+    item.addEventListener("click", function () {
+      const dataFlatNumbers = item.getAttribute("data-flat-number");
+      const dataHouseNumbers = item.getAttribute("data-house-number");
+
+      flatNumbers.innerHTML = dataFlatNumbers;
+      houseNumbers.innerHTML = dataHouseNumbers;
+    });
+
+    const flatGroup = document.querySelectorAll(".flat");
+    function deleteActiv() {
+      flatGroup.forEach((activ) => {
+        activ.classList.remove("activ");
+      });
+    }
+    flatGroup.forEach((flat) => {
+      flat.addEventListener("click", function () {
+        deleteActiv();
+        flat.classList.add("activ");
+      });
+    });
+  });
+}
 
 const roomFullInfo = [
   {
-    id: 1,
     rooms: "2",
     square: "35,6 м.кв.",
     squareFull: "60,7 м.кв.",
@@ -157,7 +187,6 @@ const roomFullInfo = [
   },
 
   {
-    id: 2,
     rooms: "3",
     square: "47,9 м.кв.",
     squareFull: "82,3 м.кв.",
@@ -181,7 +210,6 @@ const roomFullInfo = [
   },
 
   {
-    id: 3,
     rooms: "2",
     square: "35,6 м.кв.",
     squareFull: "60,7 м.кв.",
@@ -205,7 +233,6 @@ const roomFullInfo = [
   },
 
   {
-    id: 4,
     rooms: "3",
     square: "48,1 м.кв.",
     squareFull: "82,0 м.кв.",
@@ -229,7 +256,6 @@ const roomFullInfo = [
   },
 
   {
-    id: 5,
     rooms: "3",
     square: "48,1 м.кв.",
     squareFull: "79,7 м.кв.",
@@ -253,7 +279,6 @@ const roomFullInfo = [
   },
 
   {
-    id: 6,
     rooms: "1",
     square: "19,0 м.кв.",
     squareFull: "39,2 м.кв.",
@@ -277,7 +302,6 @@ const roomFullInfo = [
   },
 
   {
-    id: 7,
     rooms: "1",
     square: "21,9 м.кв.",
     squareFull: "42,0 м.кв.",
@@ -301,7 +325,6 @@ const roomFullInfo = [
   },
 
   {
-    id: 8,
     rooms: "1",
     square: "19,0 м.кв.",
     squareFull: "39,2 м.кв.",
@@ -325,7 +348,6 @@ const roomFullInfo = [
   },
 
   {
-    id: 9,
     rooms: "3",
     square: "47,9 м.кв.",
     squareFull: "79,3 м.кв.",
@@ -349,7 +371,6 @@ const roomFullInfo = [
   },
 
   {
-    id: 10,
     rooms: "2",
     square: "35,6 м.кв.",
     squareFull: "60,7 м.кв.",
@@ -373,7 +394,6 @@ const roomFullInfo = [
   },
 
   {
-    id: 11,
     rooms: "3",
     square: "47,9 м.кв.",
     squareFull: "82,3 м.кв.",
@@ -397,7 +417,6 @@ const roomFullInfo = [
   },
 
   {
-    id: 12,
     rooms: "2",
     square: "35,6 м.кв.",
     squareFull: "60,7 м.кв.",
@@ -421,7 +440,6 @@ const roomFullInfo = [
   },
 
   {
-    id: 13,
     rooms: "3",
     square: "48,1 м.кв.",
     squareFull: "82,0 м.кв.",
@@ -445,7 +463,6 @@ const roomFullInfo = [
   },
 
   {
-    id: 14,
     rooms: "3",
     square: "48,1 м.кв.",
     squareFull: "79,7 м.кв.",
@@ -469,7 +486,6 @@ const roomFullInfo = [
   },
 
   {
-    id: 15,
     rooms: "1",
     square: "19,0 м.кв.",
     squareFull: "39,2 м.кв.",
@@ -493,7 +509,6 @@ const roomFullInfo = [
   },
 
   {
-    id: 16,
     rooms: "1",
     square: "21,9 м.кв.",
     squareFull: "42,0 м.кв.",
@@ -517,7 +532,6 @@ const roomFullInfo = [
   },
 
   {
-    id: 17,
     rooms: "1",
     square: "19,0 м.кв.",
     squareFull: "39,2 м.кв.",
@@ -541,7 +555,6 @@ const roomFullInfo = [
   },
 
   {
-    id: 18,
     rooms: "3",
     square: "47,9 м.кв.",
     squareFull: "79,3 м.кв.",
@@ -564,5 +577,4 @@ const roomFullInfo = [
     ],
   },
 ];
-
-console.log(roomFullInfo);
+console.table(roomFullInfo);
