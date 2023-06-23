@@ -231,7 +231,7 @@ function installInfo() {
       squareFull: "82,3 м.кв.",
       price: "1000$",
       priceTotal: "82300$",
-      status: "",
+      status: "_",
 
       description: [
         {
@@ -256,7 +256,7 @@ function installInfo() {
       squareFull: "60,7 м.кв.",
       price: "1000$",
       priceTotal: "60700$",
-      status: "",
+      status: "_",
 
       description: [
         {
@@ -281,7 +281,7 @@ function installInfo() {
       squareFull: "82,0 м.кв.",
       price: "1000$",
       priceTotal: "82000$",
-      status: "",
+      status: "_",
 
       description: [
         {
@@ -306,7 +306,7 @@ function installInfo() {
       squareFull: "79,7 м.кв.",
       price: "1000$",
       priceTotal: "79700$",
-      status: "",
+      status: "_",
 
       description: [
         {
@@ -331,7 +331,7 @@ function installInfo() {
       squareFull: "39,2 м.кв.",
       price: "1000$",
       priceTotal: "39200$",
-      status: "",
+      status: "_",
 
       description: [
         {
@@ -356,7 +356,7 @@ function installInfo() {
       squareFull: "42,0 м.кв.",
       price: "1000$",
       priceTotal: "42000$",
-      status: "",
+      status: "_",
 
       description: [
         {
@@ -381,7 +381,7 @@ function installInfo() {
       squareFull: "39,2 м.кв.",
       price: "1000$",
       priceTotal: "39200$",
-      status: "",
+      status: "_",
 
       description: [
         {
@@ -406,7 +406,7 @@ function installInfo() {
       squareFull: "79,3 м.кв.",
       price: "1000$",
       priceTotal: "79700$",
-      status: "",
+      status: "_",
 
       description: [
         {
@@ -431,7 +431,7 @@ function installInfo() {
       squareFull: "60,7 м.кв.",
       price: "1000$",
       priceTotal: "60700$",
-      status: "",
+      status: "_",
 
       description: [
         {
@@ -456,7 +456,7 @@ function installInfo() {
       squareFull: "82,3 м.кв.",
       price: "1000$",
       priceTotal: "82300$",
-      status: "",
+      status: "_",
 
       description: [
         {
@@ -481,7 +481,7 @@ function installInfo() {
       squareFull: "60,7 м.кв.",
       price: "1000$",
       priceTotal: "60700$",
-      status: "",
+      status: "_",
 
       description: [
         {
@@ -506,7 +506,7 @@ function installInfo() {
       squareFull: "82,0 м.кв.",
       price: "1000$",
       priceTotal: "82000$",
-      status: "",
+      status: "_",
 
       description: [
         {
@@ -531,7 +531,7 @@ function installInfo() {
       squareFull: "79,7 м.кв.",
       price: "1000$",
       priceTotal: "79700$",
-      status: "",
+      status: "_",
 
       description: [
         {
@@ -556,7 +556,7 @@ function installInfo() {
       squareFull: "39,2 м.кв.",
       price: "1000$",
       priceTotal: "39200$",
-      status: "",
+      status: "_",
 
       description: [
         {
@@ -581,7 +581,7 @@ function installInfo() {
       squareFull: "42,0 м.кв.",
       price: "1000$",
       priceTotal: "42000$",
-      status: "",
+      status: "_",
 
       description: [
         {
@@ -606,7 +606,7 @@ function installInfo() {
       squareFull: "39,2 м.кв.",
       price: "1000$",
       priceTotal: "39200$",
-      status: "",
+      status: "_",
 
       description: [
         {
@@ -631,7 +631,7 @@ function installInfo() {
       squareFull: "79,3 м.кв.",
       price: "1000$",
       priceTotal: "79700$",
-      status: "",
+      status: "_",
 
       description: [
         {
@@ -656,7 +656,7 @@ function installInfo() {
       squareFull: "60,7 м.кв.",
       price: "1000$",
       priceTotal: "60700$",
-      status: "",
+      status: "_",
 
       description: [
         {
@@ -681,7 +681,7 @@ function installInfo() {
       squareFull: "82,3 м.кв.",
       price: "1000$",
       priceTotal: "82300$",
-      status: "",
+      status: "_",
 
       description: [
         {
@@ -706,7 +706,7 @@ function installInfo() {
       squareFull: "60,7 м.кв.",
       price: "1000$",
       priceTotal: "60700$",
-      status: "",
+      status: "_",
 
       description: [
         {
@@ -731,7 +731,7 @@ function installInfo() {
       squareFull: "82,0 м.кв.",
       price: "1000$",
       priceTotal: "82000$",
-      status: "",
+      status: "_",
 
       description: [
         {
@@ -756,7 +756,7 @@ function installInfo() {
       squareFull: "79,7 м.кв.",
       price: "1000$",
       priceTotal: "79700$",
-      status: "",
+      status: "_",
 
       description: [
         {
@@ -781,7 +781,7 @@ function installInfo() {
       squareFull: "39,2 м.кв.",
       price: "1000$",
       priceTotal: "39200$",
-      status: "",
+      status: "_",
 
       description: [
         {
@@ -806,7 +806,7 @@ function installInfo() {
       squareFull: "42,0 м.кв.",
       price: "1000$",
       priceTotal: "42000$",
-      status: "",
+      status: "_",
 
       description: [
         {
@@ -831,7 +831,7 @@ function installInfo() {
       squareFull: "39,2 м.кв.",
       price: "1000$",
       priceTotal: "39200$",
-      status: "",
+      status: "_",
 
       description: [
         {
@@ -856,7 +856,7 @@ function installInfo() {
       squareFull: "79,3 м.кв.",
       price: "1000$",
       priceTotal: "79700$",
-      status: "",
+      status: "_",
 
       description: [
         {
@@ -881,7 +881,7 @@ function installInfo() {
       squareFull: "60,7 м.кв.",
       price: "1000$",
       priceTotal: "60700$",
-      status: "",
+      status: "_",
 
       description: [
         {
@@ -906,7 +906,7 @@ function installInfo() {
       squareFull: "82,3 м.кв.",
       price: "1000$",
       priceTotal: "82300$",
-      status: "",
+      status: "_",
 
       description: [
         {
@@ -931,7 +931,7 @@ function installInfo() {
       squareFull: "60,7 м.кв.",
       price: "1000$",
       priceTotal: "60700$",
-      status: "",
+      status: "_",
 
       description: [
         {
@@ -956,7 +956,7 @@ function installInfo() {
       squareFull: "82,0 м.кв.",
       price: "1000$",
       priceTotal: "82000$",
-      status: "",
+      status: "_",
 
       description: [
         {
@@ -981,7 +981,7 @@ function installInfo() {
       squareFull: "79,7 м.кв.",
       price: "1000$",
       priceTotal: "79700$",
-      status: "",
+      status: "_",
 
       description: [
         {
@@ -1006,7 +1006,7 @@ function installInfo() {
       squareFull: "39,2 м.кв.",
       price: "1000$",
       priceTotal: "39200$",
-      status: "",
+      status: "_",
 
       description: [
         {
@@ -1031,7 +1031,7 @@ function installInfo() {
       squareFull: "42,0 м.кв.",
       price: "1000$",
       priceTotal: "42000$",
-      status: "",
+      status: "_",
 
       description: [
         {
@@ -1056,7 +1056,7 @@ function installInfo() {
       squareFull: "39,2 м.кв.",
       price: "1000$",
       priceTotal: "39200$",
-      status: "",
+      status: "_",
 
       description: [
         {
@@ -1081,7 +1081,7 @@ function installInfo() {
       squareFull: "79,3 м.кв.",
       price: "1000$",
       priceTotal: "79700$",
-      status: "",
+      status: "_",
 
       description: [
         {
@@ -1106,7 +1106,7 @@ function installInfo() {
       squareFull: "60,7 м.кв.",
       price: "1000$",
       priceTotal: "60700$",
-      status: "",
+      status: "_",
 
       description: [
         {
@@ -1131,7 +1131,7 @@ function installInfo() {
       squareFull: "82,3 м.кв.",
       price: "1000$",
       priceTotal: "82300$",
-      status: "",
+      status: "_",
 
       description: [
         {
@@ -1156,7 +1156,7 @@ function installInfo() {
       squareFull: "60,7 м.кв.",
       price: "1000$",
       priceTotal: "60700$",
-      status: "",
+      status: "_",
 
       description: [
         {
@@ -1181,7 +1181,7 @@ function installInfo() {
       squareFull: "82,0 м.кв.",
       price: "1000$",
       priceTotal: "82000$",
-      status: "",
+      status: "_",
 
       description: [
         {
@@ -1206,7 +1206,7 @@ function installInfo() {
       squareFull: "79,7 м.кв.",
       price: "1000$",
       priceTotal: "79700$",
-      status: "",
+      status: "_",
 
       description: [
         {
@@ -1231,7 +1231,7 @@ function installInfo() {
       squareFull: "39,2 м.кв.",
       price: "1000$",
       priceTotal: "39200$",
-      status: "",
+      status: "_",
 
       description: [
         {
@@ -1256,7 +1256,7 @@ function installInfo() {
       squareFull: "42,0 м.кв.",
       price: "1000$",
       priceTotal: "42000$",
-      status: "",
+      status: "_",
 
       description: [
         {
@@ -1281,7 +1281,7 @@ function installInfo() {
       squareFull: "39,2 м.кв.",
       price: "1000$",
       priceTotal: "39200$",
-      status: "",
+      status: "_",
 
       description: [
         {
@@ -1306,7 +1306,7 @@ function installInfo() {
       squareFull: "79,3 м.кв.",
       price: "1000$",
       priceTotal: "79700$",
-      status: "",
+      status: "_",
 
       description: [
         {
@@ -1331,7 +1331,7 @@ function installInfo() {
       squareFull: "60,7 м.кв.",
       price: "1000$",
       priceTotal: "60700$",
-      status: "",
+      status: "_",
 
       description: [
         {
@@ -1356,7 +1356,7 @@ function installInfo() {
       squareFull: "82,3 м.кв.",
       price: "1000$",
       priceTotal: "82300$",
-      status: "",
+      status: "_",
 
       description: [
         {
@@ -1381,7 +1381,7 @@ function installInfo() {
       squareFull: "60,7 м.кв.",
       price: "1000$",
       priceTotal: "60700$",
-      status: "",
+      status: "_",
 
       description: [
         {
@@ -1406,7 +1406,7 @@ function installInfo() {
       squareFull: "82,0 м.кв.",
       price: "1000$",
       priceTotal: "82000$",
-      status: "",
+      status: "_",
 
       description: [
         {
@@ -1431,7 +1431,7 @@ function installInfo() {
       squareFull: "79,7 м.кв.",
       price: "1000$",
       priceTotal: "79700$",
-      status: "",
+      status: "_",
 
       description: [
         {
@@ -1456,7 +1456,7 @@ function installInfo() {
       squareFull: "39,2 м.кв.",
       price: "1000$",
       priceTotal: "39200$",
-      status: "",
+      status: "_",
 
       description: [
         {
@@ -1481,7 +1481,7 @@ function installInfo() {
       squareFull: "42,0 м.кв.",
       price: "1000$",
       priceTotal: "42000$",
-      status: "",
+      status: "_",
 
       description: [
         {
@@ -1506,7 +1506,7 @@ function installInfo() {
       squareFull: "39,2 м.кв.",
       price: "1000$",
       priceTotal: "39200$",
-      status: "",
+      status: "_",
 
       description: [
         {
@@ -1531,7 +1531,7 @@ function installInfo() {
       squareFull: "79,3 м.кв.",
       price: "1000$",
       priceTotal: "79700$",
-      status: "",
+      status: "_",
 
       description: [
         {
@@ -1556,7 +1556,7 @@ function installInfo() {
       squareFull: "60,7 м.кв.",
       price: "1000$",
       priceTotal: "60700$",
-      status: "",
+      status: "_",
 
       description: [
         {
@@ -1581,7 +1581,7 @@ function installInfo() {
       squareFull: "82,3 м.кв.",
       price: "1000$",
       priceTotal: "82300$",
-      status: "",
+      status: "_",
 
       description: [
         {
@@ -1606,7 +1606,7 @@ function installInfo() {
       squareFull: "60,7 м.кв.",
       price: "1000$",
       priceTotal: "60700$",
-      status: "",
+      status: "_",
 
       description: [
         {
@@ -1631,7 +1631,7 @@ function installInfo() {
       squareFull: "82,0 м.кв.",
       price: "1000$",
       priceTotal: "82000$",
-      status: "",
+      status: "_",
 
       description: [
         {
@@ -1656,7 +1656,7 @@ function installInfo() {
       squareFull: "79,7 м.кв.",
       price: "1000$",
       priceTotal: "79700$",
-      status: "",
+      status: "_",
 
       description: [
         {
@@ -1681,7 +1681,7 @@ function installInfo() {
       squareFull: "39,2 м.кв.",
       price: "1000$",
       priceTotal: "39200$",
-      status: "",
+      status: "_",
 
       description: [
         {
@@ -1706,7 +1706,7 @@ function installInfo() {
       squareFull: "42,0 м.кв.",
       price: "1000$",
       priceTotal: "42000$",
-      status: "",
+      status: "_",
 
       description: [
         {
@@ -1731,7 +1731,7 @@ function installInfo() {
       squareFull: "39,2 м.кв.",
       price: "1000$",
       priceTotal: "39200$",
-      status: "",
+      status: "_",
 
       description: [
         {
@@ -1756,7 +1756,7 @@ function installInfo() {
       squareFull: "79,3 м.кв.",
       price: "1000$",
       priceTotal: "79700$",
-      status: "",
+      status: "_",
 
       description: [
         {
@@ -1781,7 +1781,7 @@ function installInfo() {
       squareFull: "60,7 м.кв.",
       price: "1000$",
       priceTotal: "60700$",
-      status: flats,
+      status: "_",
 
       description: [
         {
@@ -1806,7 +1806,7 @@ function installInfo() {
       squareFull: "82,3 м.кв.",
       price: "1000$",
       priceTotal: "82300$",
-      status: "",
+      status: "_",
 
       description: [
         {
@@ -1831,7 +1831,7 @@ function installInfo() {
       squareFull: "60,7 м.кв.",
       price: "1000$",
       priceTotal: "60700$",
-      status: "",
+      status: "_",
 
       description: [
         {
@@ -1856,7 +1856,7 @@ function installInfo() {
       squareFull: "82,0 м.кв.",
       price: "1000$",
       priceTotal: "82000$",
-      status: "",
+      status: "_",
 
       description: [
         {
@@ -1881,7 +1881,7 @@ function installInfo() {
       squareFull: "79,7 м.кв.",
       price: "1000$",
       priceTotal: "79700$",
-      status: "",
+      status: "_",
 
       description: [
         {
@@ -1906,7 +1906,7 @@ function installInfo() {
       squareFull: "39,2 м.кв.",
       price: "1000$",
       priceTotal: "39200$",
-      status: "",
+      status: "_",
 
       description: [
         {
@@ -1931,7 +1931,7 @@ function installInfo() {
       squareFull: "42,0 м.кв.",
       price: "1000$",
       priceTotal: "42000$",
-      status: "",
+      status: "_",
 
       description: [
         {
@@ -1956,7 +1956,7 @@ function installInfo() {
       squareFull: "39,2 м.кв.",
       price: "1000$",
       priceTotal: "39200$",
-      status: "",
+      status: "_",
 
       description: [
         {
@@ -1981,7 +1981,7 @@ function installInfo() {
       squareFull: "79,3 м.кв.",
       price: "1000$",
       priceTotal: "79700$",
-      status: "",
+      status: "_",
 
       description: [
         {
@@ -2006,7 +2006,7 @@ function installInfo() {
       squareFull: "60,7 м.кв.",
       price: "1000$",
       priceTotal: "60700$",
-      status: flats,
+      status: "_",
 
       description: [
         {
@@ -2031,7 +2031,7 @@ function installInfo() {
       squareFull: "82,3 м.кв.",
       price: "1000$",
       priceTotal: "82300$",
-      status: "",
+      status: "_",
 
       description: [
         {
@@ -2056,7 +2056,7 @@ function installInfo() {
       squareFull: "60,7 м.кв.",
       price: "1000$",
       priceTotal: "60700$",
-      status: "",
+      status: "_",
 
       description: [
         {
@@ -2081,7 +2081,7 @@ function installInfo() {
       squareFull: "82,0 м.кв.",
       price: "1000$",
       priceTotal: "82000$",
-      status: "",
+      status: "_",
 
       description: [
         {
@@ -2106,7 +2106,7 @@ function installInfo() {
       squareFull: "79,7 м.кв.",
       price: "1000$",
       priceTotal: "79700$",
-      status: "",
+      status: "_",
 
       description: [
         {
@@ -2131,7 +2131,7 @@ function installInfo() {
       squareFull: "39,2 м.кв.",
       price: "1000$",
       priceTotal: "39200$",
-      status: "",
+      status: "_",
 
       description: [
         {
@@ -2156,7 +2156,7 @@ function installInfo() {
       squareFull: "42,0 м.кв.",
       price: "1000$",
       priceTotal: "42000$",
-      status: "",
+      status: "_",
 
       description: [
         {
@@ -2181,7 +2181,7 @@ function installInfo() {
       squareFull: "39,2 м.кв.",
       price: "1000$",
       priceTotal: "39200$",
-      status: "",
+      status: "_",
 
       description: [
         {
@@ -2206,7 +2206,7 @@ function installInfo() {
       squareFull: "79,3 м.кв.",
       price: "1000$",
       priceTotal: "79700$",
-      status: "",
+      status: "_",
 
       description: [
         {
@@ -2231,7 +2231,7 @@ function installInfo() {
       squareFull: "60,7 м.кв.",
       price: "1000$",
       priceTotal: "60700$",
-      status: flats,
+      status: "_",
 
       description: [
         {
@@ -2256,7 +2256,7 @@ function installInfo() {
       squareFull: "82,3 м.кв.",
       price: "1000$",
       priceTotal: "82300$",
-      status: "",
+      status: "_",
 
       description: [
         {
@@ -2281,7 +2281,7 @@ function installInfo() {
       squareFull: "60,7 м.кв.",
       price: "1000$",
       priceTotal: "60700$",
-      status: "",
+      status: "_",
 
       description: [
         {
@@ -2306,7 +2306,7 @@ function installInfo() {
       squareFull: "82,0 м.кв.",
       price: "1000$",
       priceTotal: "82000$",
-      status: "",
+      status: "_",
 
       description: [
         {
@@ -2331,7 +2331,7 @@ function installInfo() {
       squareFull: "79,7 м.кв.",
       price: "1000$",
       priceTotal: "79700$",
-      status: "",
+      status: "_",
 
       description: [
         {
@@ -2356,7 +2356,7 @@ function installInfo() {
       squareFull: "39,2 м.кв.",
       price: "1000$",
       priceTotal: "39200$",
-      status: "",
+      status: "_",
 
       description: [
         {
@@ -2381,7 +2381,7 @@ function installInfo() {
       squareFull: "42,0 м.кв.",
       price: "1000$",
       priceTotal: "42000$",
-      status: "",
+      status: "_",
 
       description: [
         {
@@ -2406,7 +2406,7 @@ function installInfo() {
       squareFull: "39,2 м.кв.",
       price: "1000$",
       priceTotal: "39200$",
-      status: "",
+      status: "_",
 
       description: [
         {
@@ -2431,7 +2431,7 @@ function installInfo() {
       squareFull: "79,3 м.кв.",
       price: "1000$",
       priceTotal: "79700$",
-      status: "",
+      status: "_",
 
       description: [
         {
@@ -2456,7 +2456,7 @@ function installInfo() {
       squareFull: "60,7 м.кв.",
       price: "1000$",
       priceTotal: "60700$",
-      status: flats,
+      status: "_",
 
       description: [
         {
@@ -2481,7 +2481,7 @@ function installInfo() {
       squareFull: "82,3 м.кв.",
       price: "1000$",
       priceTotal: "82300$",
-      status: "",
+      status: "_",
 
       description: [
         {
@@ -2506,7 +2506,7 @@ function installInfo() {
       squareFull: "60,7 м.кв.",
       price: "1000$",
       priceTotal: "60700$",
-      status: "",
+      status: "_",
 
       description: [
         {
@@ -2531,7 +2531,7 @@ function installInfo() {
       squareFull: "82,0 м.кв.",
       price: "1000$",
       priceTotal: "82000$",
-      status: "",
+      status: "_",
 
       description: [
         {
@@ -2556,7 +2556,7 @@ function installInfo() {
       squareFull: "79,7 м.кв.",
       price: "1000$",
       priceTotal: "79700$",
-      status: "",
+      status: "_",
 
       description: [
         {
@@ -2581,7 +2581,7 @@ function installInfo() {
       squareFull: "39,2 м.кв.",
       price: "1000$",
       priceTotal: "39200$",
-      status: "",
+      status: "_",
 
       description: [
         {
@@ -2606,7 +2606,7 @@ function installInfo() {
       squareFull: "42,0 м.кв.",
       price: "1000$",
       priceTotal: "42000$",
-      status: "",
+      status: "_",
 
       description: [
         {
@@ -2631,7 +2631,7 @@ function installInfo() {
       squareFull: "39,2 м.кв.",
       price: "1000$",
       priceTotal: "39200$",
-      status: "",
+      status: "_",
 
       description: [
         {
@@ -2656,7 +2656,7 @@ function installInfo() {
       squareFull: "79,3 м.кв.",
       price: "1000$",
       priceTotal: "79700$",
-      status: "",
+      status: "_",
 
       description: [
         {
@@ -2681,7 +2681,7 @@ function installInfo() {
       squareFull: "60,7 м.кв.",
       price: "1000$",
       priceTotal: "60700$",
-      status: "",
+      status: "_",
 
       description: [
         {
@@ -2706,7 +2706,7 @@ function installInfo() {
       squareFull: "82,3 м.кв.",
       price: "1000$",
       priceTotal: "82300$",
-      status: "",
+      status: "_",
 
       description: [
         {
@@ -2731,7 +2731,7 @@ function installInfo() {
       squareFull: "60,7 м.кв.",
       price: "1000$",
       priceTotal: "60700$",
-      status: "",
+      status: "_",
 
       description: [
         {
@@ -2756,7 +2756,7 @@ function installInfo() {
       squareFull: "82,0 м.кв.",
       price: "1000$",
       priceTotal: "82000$",
-      status: "",
+      status: "_",
 
       description: [
         {
@@ -2781,7 +2781,7 @@ function installInfo() {
       squareFull: "79,7 м.кв.",
       price: "1000$",
       priceTotal: "79700$",
-      status: "",
+      status: "_",
 
       description: [
         {
@@ -2806,7 +2806,7 @@ function installInfo() {
       squareFull: "39,2 м.кв.",
       price: "1000$",
       priceTotal: "39200$",
-      status: "",
+      status: "_",
 
       description: [
         {
@@ -2831,7 +2831,7 @@ function installInfo() {
       squareFull: "42,0 м.кв.",
       price: "1000$",
       priceTotal: "42000$",
-      status: "",
+      status: "_",
 
       description: [
         {
@@ -2856,7 +2856,7 @@ function installInfo() {
       squareFull: "39,2 м.кв.",
       price: "1000$",
       priceTotal: "39200$",
-      status: "",
+      status: "_",
 
       description: [
         {
@@ -2881,7 +2881,7 @@ function installInfo() {
       squareFull: "79,3 м.кв.",
       price: "1000$",
       priceTotal: "79700$",
-      status: "",
+      status: "_",
 
       description: [
         {
@@ -2906,7 +2906,7 @@ function installInfo() {
       squareFull: "60,7 м.кв.",
       price: "1000$",
       priceTotal: "60700$",
-      status: "",
+      status: "_",
 
       description: [
         {
@@ -2931,7 +2931,7 @@ function installInfo() {
       squareFull: "82,3 м.кв.",
       price: "1000$",
       priceTotal: "82300$",
-      status: "",
+      status: "_",
 
       description: [
         {
@@ -2956,7 +2956,7 @@ function installInfo() {
       squareFull: "60,7 м.кв.",
       price: "1000$",
       priceTotal: "60700$",
-      status: "",
+      status: "_",
 
       description: [
         {
@@ -2981,7 +2981,7 @@ function installInfo() {
       squareFull: "82,0 м.кв.",
       price: "1000$",
       priceTotal: "82000$",
-      status: "",
+      status: "_",
 
       description: [
         {
@@ -3006,7 +3006,7 @@ function installInfo() {
       squareFull: "79,7 м.кв.",
       price: "1000$",
       priceTotal: "79700$",
-      status: "",
+      status: "_",
 
       description: [
         {
@@ -3031,7 +3031,7 @@ function installInfo() {
       squareFull: "39,2 м.кв.",
       price: "1000$",
       priceTotal: "39200$",
-      status: "",
+      status: "_",
 
       description: [
         {
@@ -3056,7 +3056,7 @@ function installInfo() {
       squareFull: "42,0 м.кв.",
       price: "1000$",
       priceTotal: "42000$",
-      status: "",
+      status: "_",
 
       description: [
         {
@@ -3081,7 +3081,7 @@ function installInfo() {
       squareFull: "39,2 м.кв.",
       price: "1000$",
       priceTotal: "39200$",
-      status: "",
+      status: "_",
 
       description: [
         {
@@ -3106,7 +3106,7 @@ function installInfo() {
       squareFull: "79,3 м.кв.",
       price: "1000$",
       priceTotal: "79700$",
-      status: "",
+      status: "_",
 
       description: [
         {
@@ -3131,7 +3131,7 @@ function installInfo() {
       squareFull: "60,7 м.кв.",
       price: "1000$",
       priceTotal: "60700$",
-      status: "",
+      status: "_",
 
       description: [
         {
@@ -3156,7 +3156,7 @@ function installInfo() {
       squareFull: "82,3 м.кв.",
       price: "1000$",
       priceTotal: "82300$",
-      status: "",
+      status: "_",
 
       description: [
         {
@@ -3181,7 +3181,7 @@ function installInfo() {
       squareFull: "60,7 м.кв.",
       price: "1000$",
       priceTotal: "60700$",
-      status: "",
+      status: "_",
 
       description: [
         {
@@ -3206,7 +3206,7 @@ function installInfo() {
       squareFull: "82,0 м.кв.",
       price: "1000$",
       priceTotal: "82000$",
-      status: "",
+      status: "_",
 
       description: [
         {
@@ -3231,7 +3231,7 @@ function installInfo() {
       squareFull: "79,7 м.кв.",
       price: "1000$",
       priceTotal: "79700$",
-      status: "",
+      status: "_",
 
       description: [
         {
@@ -3256,7 +3256,7 @@ function installInfo() {
       squareFull: "39,2 м.кв.",
       price: "1000$",
       priceTotal: "39200$",
-      status: "",
+      status: "_",
 
       description: [
         {
@@ -3281,7 +3281,7 @@ function installInfo() {
       squareFull: "42,0 м.кв.",
       price: "1000$",
       priceTotal: "42000$",
-      status: "",
+      status: "_",
 
       description: [
         {
@@ -3306,7 +3306,7 @@ function installInfo() {
       squareFull: "39,2 м.кв.",
       price: "1000$",
       priceTotal: "39200$",
-      status: "",
+      status: "_",
 
       description: [
         {
@@ -3331,7 +3331,7 @@ function installInfo() {
       squareFull: "79,3 м.кв.",
       price: "1000$",
       priceTotal: "79700$",
-      status: "",
+      status: "_",
 
       description: [
         {
@@ -3356,7 +3356,7 @@ function installInfo() {
       squareFull: "60,7 м.кв.",
       price: "1000$",
       priceTotal: "60700$",
-      status: "",
+      status: "_",
 
       description: [
         {
@@ -3381,7 +3381,7 @@ function installInfo() {
       squareFull: "82,3 м.кв.",
       price: "1000$",
       priceTotal: "82300$",
-      status: "",
+      status: "_",
 
       description: [
         {
@@ -3406,7 +3406,7 @@ function installInfo() {
       squareFull: "60,7 м.кв.",
       price: "1000$",
       priceTotal: "60700$",
-      status: "",
+      status: "_",
 
       description: [
         {
@@ -3431,7 +3431,7 @@ function installInfo() {
       squareFull: "82,0 м.кв.",
       price: "1000$",
       priceTotal: "82000$",
-      status: "",
+      status: "_",
 
       description: [
         {
@@ -3456,7 +3456,7 @@ function installInfo() {
       squareFull: "79,7 м.кв.",
       price: "1000$",
       priceTotal: "79700$",
-      status: "",
+      status: "_",
 
       description: [
         {
@@ -3481,7 +3481,7 @@ function installInfo() {
       squareFull: "39,2 м.кв.",
       price: "1000$",
       priceTotal: "39200$",
-      status: "",
+      status: "_",
 
       description: [
         {
@@ -3506,7 +3506,7 @@ function installInfo() {
       squareFull: "42,0 м.кв.",
       price: "1000$",
       priceTotal: "42000$",
-      status: "",
+      status: "_",
 
       description: [
         {
@@ -3531,7 +3531,7 @@ function installInfo() {
       squareFull: "39,2 м.кв.",
       price: "1000$",
       priceTotal: "39200$",
-      status: "",
+      status: "_",
 
       description: [
         {
@@ -3556,7 +3556,7 @@ function installInfo() {
       squareFull: "79,3 м.кв.",
       price: "1000$",
       priceTotal: "79700$",
-      status: "",
+      status: "_",
 
       description: [
         {
@@ -3581,7 +3581,7 @@ function installInfo() {
       squareFull: "60,7 м.кв.",
       price: "1000$",
       priceTotal: "60700$",
-      status: "",
+      status: "_",
 
       description: [
         {
@@ -3606,7 +3606,7 @@ function installInfo() {
       squareFull: "82,3 м.кв.",
       price: "1000$",
       priceTotal: "82300$",
-      status: "",
+      status: "_",
 
       description: [
         {
@@ -3631,7 +3631,7 @@ function installInfo() {
       squareFull: "60,7 м.кв.",
       price: "1000$",
       priceTotal: "60700$",
-      status: "",
+      status: "_",
 
       description: [
         {
@@ -3656,7 +3656,7 @@ function installInfo() {
       squareFull: "82,0 м.кв.",
       price: "1000$",
       priceTotal: "82000$",
-      status: "",
+      status: "_",
 
       description: [
         {
@@ -3681,7 +3681,7 @@ function installInfo() {
       squareFull: "79,7 м.кв.",
       price: "1000$",
       priceTotal: "79700$",
-      status: "",
+      status: "_",
 
       description: [
         {
@@ -3706,7 +3706,7 @@ function installInfo() {
       squareFull: "39,2 м.кв.",
       price: "1000$",
       priceTotal: "39200$",
-      status: "",
+      status: "_",
 
       description: [
         {
@@ -3731,7 +3731,7 @@ function installInfo() {
       squareFull: "42,0 м.кв.",
       price: "1000$",
       priceTotal: "42000$",
-      status: "",
+      status: "_",
 
       description: [
         {
@@ -3756,7 +3756,7 @@ function installInfo() {
       squareFull: "39,2 м.кв.",
       price: "1000$",
       priceTotal: "39200$",
-      status: "",
+      status: "_",
 
       description: [
         {
@@ -3781,7 +3781,7 @@ function installInfo() {
       squareFull: "79,3 м.кв.",
       price: "1000$",
       priceTotal: "79700$",
-      status: "",
+      status: "_",
 
       description: [
         {
@@ -3806,7 +3806,7 @@ function installInfo() {
       squareFull: "60,7 м.кв.",
       price: "1000$",
       priceTotal: "60700$",
-      status: "",
+      status: "_",
 
       description: [
         {
@@ -3831,7 +3831,7 @@ function installInfo() {
       squareFull: "82,3 м.кв.",
       price: "1000$",
       priceTotal: "82300$",
-      status: "",
+      status: "_",
 
       description: [
         {
@@ -3856,7 +3856,7 @@ function installInfo() {
       squareFull: "60,7 м.кв.",
       price: "1000$",
       priceTotal: "60700$",
-      status: "",
+      status: "_",
 
       description: [
         {
@@ -3881,7 +3881,7 @@ function installInfo() {
       squareFull: "82,0 м.кв.",
       price: "1000$",
       priceTotal: "82000$",
-      status: "",
+      status: "_",
 
       description: [
         {
@@ -3906,7 +3906,7 @@ function installInfo() {
       squareFull: "79,7 м.кв.",
       price: "1000$",
       priceTotal: "79700$",
-      status: "",
+      status: "_",
 
       description: [
         {
@@ -3931,7 +3931,7 @@ function installInfo() {
       squareFull: "39,2 м.кв.",
       price: "1000$",
       priceTotal: "39200$",
-      status: "",
+      status: "_",
 
       description: [
         {
@@ -3956,7 +3956,7 @@ function installInfo() {
       squareFull: "42,0 м.кв.",
       price: "1000$",
       priceTotal: "42000$",
-      status: "",
+      status: "_",
 
       description: [
         {
@@ -3981,7 +3981,7 @@ function installInfo() {
       squareFull: "39,2 м.кв.",
       price: "1000$",
       priceTotal: "39200$",
-      status: "",
+      status: "_",
 
       description: [
         {
@@ -4006,7 +4006,7 @@ function installInfo() {
       squareFull: "79,3 м.кв.",
       price: "1000$",
       priceTotal: "79700$",
-      status: "",
+      status: "_",
 
       description: [
         {
@@ -4031,7 +4031,7 @@ function installInfo() {
       squareFull: "60,7 м.кв.",
       price: "1000$",
       priceTotal: "60700$",
-      status: "",
+      status: "_",
 
       description: [
         {
@@ -4056,7 +4056,7 @@ function installInfo() {
       squareFull: "82,3 м.кв.",
       price: "1000$",
       priceTotal: "82300$",
-      status: "",
+      status: "_",
 
       description: [
         {
@@ -4081,7 +4081,7 @@ function installInfo() {
       squareFull: "60,7 м.кв.",
       price: "1000$",
       priceTotal: "60700$",
-      status: "",
+      status: "_",
 
       description: [
         {
@@ -4106,7 +4106,7 @@ function installInfo() {
       squareFull: "82,0 м.кв.",
       price: "1000$",
       priceTotal: "82000$",
-      status: "",
+      status: "_",
 
       description: [
         {
@@ -4131,7 +4131,7 @@ function installInfo() {
       squareFull: "79,7 м.кв.",
       price: "1000$",
       priceTotal: "79700$",
-      status: "",
+      status: "_",
 
       description: [
         {
@@ -4156,7 +4156,7 @@ function installInfo() {
       squareFull: "39,2 м.кв.",
       price: "1000$",
       priceTotal: "39200$",
-      status: "",
+      status: "_",
 
       description: [
         {
@@ -4181,7 +4181,7 @@ function installInfo() {
       squareFull: "42,0 м.кв.",
       price: "1000$",
       priceTotal: "42000$",
-      status: "",
+      status: "_",
 
       description: [
         {
@@ -4206,7 +4206,7 @@ function installInfo() {
       squareFull: "39,2 м.кв.",
       price: "1000$",
       priceTotal: "39200$",
-      status: "",
+      status: "_",
 
       description: [
         {
@@ -4231,7 +4231,7 @@ function installInfo() {
       squareFull: "79,3 м.кв.",
       price: "1000$",
       priceTotal: "79700$",
-      status: "",
+      status: "_",
 
       description: [
         {
@@ -4256,7 +4256,7 @@ function installInfo() {
       squareFull: "60,7 м.кв.",
       price: "1000$",
       priceTotal: "60700$",
-      status: "",
+      status: "_",
 
       description: [
         {
@@ -4281,7 +4281,7 @@ function installInfo() {
       squareFull: "82,3 м.кв.",
       price: "1000$",
       priceTotal: "82300$",
-      status: "",
+      status: "_",
 
       description: [
         {
@@ -4306,7 +4306,7 @@ function installInfo() {
       squareFull: "60,7 м.кв.",
       price: "1000$",
       priceTotal: "60700$",
-      status: "",
+      status: "_",
 
       description: [
         {
@@ -4331,7 +4331,7 @@ function installInfo() {
       squareFull: "82,0 м.кв.",
       price: "1000$",
       priceTotal: "82000$",
-      status: "",
+      status: "_",
 
       description: [
         {
@@ -4356,7 +4356,7 @@ function installInfo() {
       squareFull: "79,7 м.кв.",
       price: "1000$",
       priceTotal: "79700$",
-      status: "",
+      status: "_",
 
       description: [
         {
@@ -4381,7 +4381,7 @@ function installInfo() {
       squareFull: "39,2 м.кв.",
       price: "1000$",
       priceTotal: "39200$",
-      status: "",
+      status: "_",
 
       description: [
         {
@@ -4406,7 +4406,7 @@ function installInfo() {
       squareFull: "42,0 м.кв.",
       price: "1000$",
       priceTotal: "42000$",
-      status: "",
+      status: "_",
 
       description: [
         {
@@ -4431,7 +4431,7 @@ function installInfo() {
       squareFull: "39,2 м.кв.",
       price: "1000$",
       priceTotal: "39200$",
-      status: "",
+      status: "_",
 
       description: [
         {
@@ -4456,7 +4456,7 @@ function installInfo() {
       squareFull: "79,3 м.кв.",
       price: "1000$",
       priceTotal: "79700$",
-      status: "",
+      status: "_",
 
       description: [
         {
@@ -4481,7 +4481,7 @@ function installInfo() {
       squareFull: "60,7 м.кв.",
       price: "1000$",
       priceTotal: "60700$",
-      status: "",
+      status: "_",
 
       description: [
         {
@@ -4506,7 +4506,7 @@ function installInfo() {
       squareFull: "82,3 м.кв.",
       price: "1000$",
       priceTotal: "82300$",
-      status: "",
+      status: "_",
 
       description: [
         {
@@ -4531,7 +4531,7 @@ function installInfo() {
       squareFull: "60,7 м.кв.",
       price: "1000$",
       priceTotal: "60700$",
-      status: "",
+      status: "_",
 
       description: [
         {
@@ -4556,7 +4556,7 @@ function installInfo() {
       squareFull: "82,0 м.кв.",
       price: "1000$",
       priceTotal: "82000$",
-      status: "",
+      status: "_",
 
       description: [
         {
@@ -4581,7 +4581,7 @@ function installInfo() {
       squareFull: "79,7 м.кв.",
       price: "1000$",
       priceTotal: "79700$",
-      status: "",
+      status: "_",
 
       description: [
         {
@@ -4606,7 +4606,7 @@ function installInfo() {
       squareFull: "39,2 м.кв.",
       price: "1000$",
       priceTotal: "39200$",
-      status: "",
+      status: "_",
 
       description: [
         {
@@ -4631,7 +4631,7 @@ function installInfo() {
       squareFull: "42,0 м.кв.",
       price: "1000$",
       priceTotal: "42000$",
-      status: "",
+      status: "_",
 
       description: [
         {
@@ -4656,7 +4656,7 @@ function installInfo() {
       squareFull: "39,2 м.кв.",
       price: "1000$",
       priceTotal: "39200$",
-      status: "",
+      status: "_",
 
       description: [
         {
@@ -4681,7 +4681,7 @@ function installInfo() {
       squareFull: "79,3 м.кв.",
       price: "1000$",
       priceTotal: "79700$",
-      status: "",
+      status: "_",
 
       description: [
         {
@@ -4706,7 +4706,7 @@ function installInfo() {
       squareFull: "60,7 м.кв.",
       price: "1000$",
       priceTotal: "60700$",
-      status: "",
+      status: "_",
 
       description: [
         {
@@ -4731,7 +4731,7 @@ function installInfo() {
       squareFull: "82,3 м.кв.",
       price: "1000$",
       priceTotal: "82300$",
-      status: "",
+      status: "_",
 
       description: [
         {
@@ -4756,7 +4756,7 @@ function installInfo() {
       squareFull: "60,7 м.кв.",
       price: "1000$",
       priceTotal: "60700$",
-      status: "",
+      status: "_",
 
       description: [
         {
@@ -4781,7 +4781,7 @@ function installInfo() {
       squareFull: "82,0 м.кв.",
       price: "1000$",
       priceTotal: "82000$",
-      status: "",
+      status: "_",
 
       description: [
         {
@@ -4806,7 +4806,7 @@ function installInfo() {
       squareFull: "79,7 м.кв.",
       price: "1000$",
       priceTotal: "79700$",
-      status: "",
+      status: "_",
 
       description: [
         {
@@ -4831,7 +4831,7 @@ function installInfo() {
       squareFull: "39,2 м.кв.",
       price: "1000$",
       priceTotal: "39200$",
-      status: "",
+      status: "_",
 
       description: [
         {
@@ -4856,7 +4856,7 @@ function installInfo() {
       squareFull: "42,0 м.кв.",
       price: "1000$",
       priceTotal: "42000$",
-      status: "",
+      status: "_",
 
       description: [
         {
@@ -4881,7 +4881,7 @@ function installInfo() {
       squareFull: "39,2 м.кв.",
       price: "1000$",
       priceTotal: "39200$",
-      status: "",
+      status: "_",
 
       description: [
         {
@@ -4906,7 +4906,7 @@ function installInfo() {
       squareFull: "79,3 м.кв.",
       price: "1000$",
       priceTotal: "79700$",
-      status: "",
+      status: "_",
 
       description: [
         {
@@ -4931,7 +4931,7 @@ function installInfo() {
       squareFull: "60,7 м.кв.",
       price: "1000$",
       priceTotal: "60700$",
-      status: "",
+      status: "_",
 
       description: [
         {
@@ -4956,7 +4956,7 @@ function installInfo() {
       squareFull: "82,3 м.кв.",
       price: "1000$",
       priceTotal: "82300$",
-      status: "",
+      status: "_",
 
       description: [
         {
@@ -4981,7 +4981,7 @@ function installInfo() {
       squareFull: "60,7 м.кв.",
       price: "1000$",
       priceTotal: "60700$",
-      status: "",
+      status: "_",
 
       description: [
         {
@@ -5006,7 +5006,7 @@ function installInfo() {
       squareFull: "82,0 м.кв.",
       price: "1000$",
       priceTotal: "82000$",
-      status: "",
+      status: "_",
 
       description: [
         {
@@ -5031,7 +5031,7 @@ function installInfo() {
       squareFull: "79,7 м.кв.",
       price: "1000$",
       priceTotal: "79700$",
-      status: "",
+      status: "_",
 
       description: [
         {
@@ -5056,7 +5056,7 @@ function installInfo() {
       squareFull: "39,2 м.кв.",
       price: "1000$",
       priceTotal: "39200$",
-      status: "",
+      status: "_",
 
       description: [
         {
@@ -5081,7 +5081,7 @@ function installInfo() {
       squareFull: "42,0 м.кв.",
       price: "1000$",
       priceTotal: "42000$",
-      status: "",
+      status: "_",
 
       description: [
         {
@@ -5106,7 +5106,7 @@ function installInfo() {
       squareFull: "39,2 м.кв.",
       price: "1000$",
       priceTotal: "39200$",
-      status: "",
+      status: "_",
 
       description: [
         {
@@ -5131,7 +5131,7 @@ function installInfo() {
       squareFull: "79,3 м.кв.",
       price: "1000$",
       priceTotal: "79700$",
-      status: "",
+      status: "_",
 
       description: [
         {
@@ -5156,7 +5156,7 @@ function installInfo() {
       squareFull: "60,7 м.кв.",
       price: "1000$",
       priceTotal: "60700$",
-      status: "",
+      status: "_",
 
       description: [
         {
@@ -5181,7 +5181,7 @@ function installInfo() {
       squareFull: "82,3 м.кв.",
       price: "1000$",
       priceTotal: "82300$",
-      status: "",
+      status: "_",
 
       description: [
         {
@@ -5206,7 +5206,7 @@ function installInfo() {
       squareFull: "60,7 м.кв.",
       price: "1000$",
       priceTotal: "60700$",
-      status: "",
+      status: "_",
 
       description: [
         {
@@ -5231,7 +5231,7 @@ function installInfo() {
       squareFull: "82,0 м.кв.",
       price: "1000$",
       priceTotal: "82000$",
-      status: "",
+      status: "_",
 
       description: [
         {
@@ -5256,7 +5256,7 @@ function installInfo() {
       squareFull: "79,7 м.кв.",
       price: "1000$",
       priceTotal: "79700$",
-      status: "",
+      status: "_",
 
       description: [
         {
@@ -5281,7 +5281,7 @@ function installInfo() {
       squareFull: "39,2 м.кв.",
       price: "1000$",
       priceTotal: "39200$",
-      status: "",
+      status: "_",
 
       description: [
         {
@@ -5306,7 +5306,7 @@ function installInfo() {
       squareFull: "42,0 м.кв.",
       price: "1000$",
       priceTotal: "42000$",
-      status: "",
+      status: "_",
 
       description: [
         {
@@ -5331,7 +5331,7 @@ function installInfo() {
       squareFull: "39,2 м.кв.",
       price: "1000$",
       priceTotal: "39200$",
-      status: "",
+      status: "_",
 
       description: [
         {
@@ -5356,7 +5356,7 @@ function installInfo() {
       squareFull: "79,3 м.кв.",
       price: "1000$",
       priceTotal: "79700$",
-      status: "",
+      status: "_",
 
       description: [
         {
@@ -5381,7 +5381,7 @@ function installInfo() {
       squareFull: "60,7 м.кв.",
       price: "1000$",
       priceTotal: "60700$",
-      status: "",
+      status: "_",
 
       description: [
         {
@@ -5406,7 +5406,7 @@ function installInfo() {
       squareFull: "82,3 м.кв.",
       price: "1000$",
       priceTotal: "82300$",
-      status: "",
+      status: "_",
 
       description: [
         {
@@ -5431,7 +5431,7 @@ function installInfo() {
       squareFull: "60,7 м.кв.",
       price: "1000$",
       priceTotal: "60700$",
-      status: "",
+      status: "_",
 
       description: [
         {
@@ -5456,7 +5456,7 @@ function installInfo() {
       squareFull: "82,0 м.кв.",
       price: "1000$",
       priceTotal: "82000$",
-      status: "",
+      status: "_",
 
       description: [
         {
@@ -5481,7 +5481,7 @@ function installInfo() {
       squareFull: "79,7 м.кв.",
       price: "1000$",
       priceTotal: "79700$",
-      status: "",
+      status: "_",
 
       description: [
         {
@@ -5506,7 +5506,7 @@ function installInfo() {
       squareFull: "39,2 м.кв.",
       price: "1000$",
       priceTotal: "39200$",
-      status: "",
+      status: "_",
 
       description: [
         {
@@ -5531,7 +5531,7 @@ function installInfo() {
       squareFull: "42,0 м.кв.",
       price: "1000$",
       priceTotal: "42000$",
-      status: "",
+      status: "_",
 
       description: [
         {
@@ -5556,7 +5556,7 @@ function installInfo() {
       squareFull: "39,2 м.кв.",
       price: "1000$",
       priceTotal: "39200$",
-      status: "",
+      status: "_",
 
       description: [
         {
@@ -5581,7 +5581,7 @@ function installInfo() {
       squareFull: "79,3 м.кв.",
       price: "1000$",
       priceTotal: "79700$",
-      status: "",
+      status: "_",
 
       description: [
         {
@@ -5606,7 +5606,7 @@ function installInfo() {
       squareFull: "60,7 м.кв.",
       price: "1000$",
       priceTotal: "60700$",
-      status: "",
+      status: "_",
 
       description: [
         {
@@ -5631,7 +5631,7 @@ function installInfo() {
       squareFull: "82,3 м.кв.",
       price: "1000$",
       priceTotal: "82300$",
-      status: "",
+      status: "_",
 
       description: [
         {
@@ -5656,7 +5656,7 @@ function installInfo() {
       squareFull: "60,7 м.кв.",
       price: "1000$",
       priceTotal: "60700$",
-      status: "",
+      status: "_",
 
       description: [
         {
@@ -5681,7 +5681,7 @@ function installInfo() {
       squareFull: "82,0 м.кв.",
       price: "1000$",
       priceTotal: "82000$",
-      status: "",
+      status: "_",
 
       description: [
         {
@@ -5706,7 +5706,7 @@ function installInfo() {
       squareFull: "79,7 м.кв.",
       price: "1000$",
       priceTotal: "79700$",
-      status: "",
+      status: "_",
 
       description: [
         {
@@ -5731,7 +5731,7 @@ function installInfo() {
       squareFull: "39,2 м.кв.",
       price: "1000$",
       priceTotal: "39200$",
-      status: "",
+      status: "_",
 
       description: [
         {
@@ -5756,7 +5756,7 @@ function installInfo() {
       squareFull: "42,0 м.кв.",
       price: "1000$",
       priceTotal: "42000$",
-      status: "",
+      status: "_",
 
       description: [
         {
@@ -5781,7 +5781,7 @@ function installInfo() {
       squareFull: "39,2 м.кв.",
       price: "1000$",
       priceTotal: "39200$",
-      status: "",
+      status: "_",
 
       description: [
         {
@@ -5806,7 +5806,7 @@ function installInfo() {
       squareFull: "79,3 м.кв.",
       price: "1000$",
       priceTotal: "79700$",
-      status: "",
+      status: "_",
 
       description: [
         {
