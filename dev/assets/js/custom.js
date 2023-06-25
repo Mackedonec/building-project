@@ -198,6 +198,7 @@ function installInfo() {
       renderInfo(flatNumber);
     });
   });
+
   const roomFullInfo = [
     {
       flatNumber: "1",
@@ -11449,6 +11450,13 @@ function installInfo() {
       ],
     },
   ];
+
+  const bigIndex = document.querySelector(".big");
+  const buttonIndex = document.querySelector(".button-index");
+
+  buttonIndex.addEventListener("click", function () {
+    bigIndex.classList.toggle("zindex");
+  });
 }
 
 // Получаем текущий параметр "tab" из URL
