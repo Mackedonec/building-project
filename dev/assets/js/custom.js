@@ -147,7 +147,7 @@ function installInfo() {
       squareFull: "_",
       price: "_",
       priceTotal: "_",
-      status: "Sold",
+      status: "_",
 
       description: [
         {
@@ -1882,7 +1882,7 @@ function installInfo() {
       squareFull: "79,7 м.кв.",
       price: "1000$",
       priceTotal: "79700$",
-      status: "_",
+      status: "Free",
 
       description: [
         {
@@ -2051,7 +2051,7 @@ function installInfo() {
     },
 
     {
-      flatNumber: "74",
+      flatNumber: "75",
       rooms: "2",
       square: "35,6 м.кв.",
       squareFull: "60,7 м.кв.",
@@ -11450,6 +11450,36 @@ function installInfo() {
       ],
     },
   ];
+
+  //  попробовать интегрировать в цикл на 122 строке
+  flats.forEach((el) => {
+    const roomNumber = el.dataset.roomsNumber;
+    const roomStatus =
+      el.classList[1] === undefined ? "У продажу" : el.classList[1]; //это эквивалентно этому:
+    // let roomStatus = el.classList[1];
+    // if (roomStatus == 'undefined') roomStatus = '_';
+
+    let statusText;
+    switch (roomStatus) {
+      case "sold":
+        statusText = "Продано";
+        break;
+      case "booking":
+        statusText = "Бронь";
+        break;
+      case "action":
+        statusText = "Акція";
+        break;
+      default:
+        statusText = roomStatus;
+    }
+
+    const roomIndex = roomFullInfo.findIndex(
+      (room) => room.flatNumber == roomNumber
+    );
+
+    roomFullInfo[roomIndex].status = statusText;
+  });
 
   const bigIndex = document.querySelector(".big");
   const buttonIndex = document.querySelector(".button-index");
