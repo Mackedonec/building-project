@@ -11457,7 +11457,7 @@ function installInfo() {
     const roomStatus =
       el.classList[1] === undefined ? "У продажу" : el.classList[1]; //это эквивалентно этому:
     // let roomStatus = el.classList[1];
-    // if (roomStatus == 'undefined') roomStatus = '_';
+    // if (roomStatus == 'undefined') roomStatus = 'У продажу';
 
     let statusText;
     switch (roomStatus) {
