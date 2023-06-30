@@ -44,6 +44,7 @@
       font-size: 14px;
     }
     .tab {
+      min-height: calc(100vh - 185px);
       .tab-list {
         border-radius: 30px;
         padding: 20px;
